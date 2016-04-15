@@ -11,6 +11,7 @@
     <sprite>sprites\spr_menu_preview</sprite>
     <sprite>sprites\spr_counter</sprite>
     <sprite>sprites\spr_costumer</sprite>
+    <sprite>sprites\spr_menu_view</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -18,6 +19,7 @@
     <object>objects\obj_menu_preview</object>
     <object>objects\obj_counter</object>
     <object>objects\obj_costumer</object>
+    <object>objects\obj_menu_view</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RichardRoom</room>
