@@ -36,9 +36,9 @@ draw_text(0, 50, "Mardan "+ string(global.currentMardan) );
 draw_text(0, 60, "Azucar "+ string(global.currentAzucar) );
 draw_text(0, 70, "Naranjas "+ string(global.currentNaranjas) );
 draw_text(0, 80, "Sermiesas "+ string(global.currentSermiesa) );
+draw_text(0, 90, "Limones "+ string(global.currentLimones) );
 
-
-draw_text(0, 90, "Money "+ string(global.money));
+draw_text(0, 100, "Money "+ string(global.money));
 </string>
           </argument>
         </arguments>

@@ -29,7 +29,7 @@ if(cliente == "obj_Faller")
     else if(num==1)
         seleccion = obj_OldFashioned;
     else if(num==2)
-        seleccion = obj_Destornillador;
+        seleccion = obj_Margarita;
     else if(num==3)
         seleccion = obj_Manhattan;
     else
@@ -49,7 +49,7 @@ if(cliente == "obj_Faller")
     else if(num==1)
         seleccion = obj_OldFashioned;
     else if(num==2)
-        seleccion = obj_Destornillador;
+        seleccion = obj_Margarita;
     else if(num==3)
         seleccion = obj_Manhattan;
     else
@@ -60,7 +60,7 @@ if(cliente == "obj_Faller")
     var num = irandom_range(0,3);
     
     if(num==0)
-        seleccion = obj_Chupito;
+        seleccion = obj_Margarita;
     else if(num==1)
         seleccion = obj_OldFashioned;
     else if(num==2)
@@ -79,7 +79,7 @@ if(cliente == "obj_Faller")
     else if(num==1)
         seleccion = obj_OldFashioned;
     else if(num==2)
-        seleccion = obj_Destornillador;
+        seleccion = obj_Margarita;
     else if(num==3)
         seleccion = obj_Manhattan;
     else

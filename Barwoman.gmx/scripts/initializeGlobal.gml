@@ -10,6 +10,7 @@ global.currentSmirniao = 0;
 global.currentAzucar = 0;
 global.currentNaranjas = 0;
 global.currentSermiesa = 0;
+global.currentLimones = 0;
 
 return 0;
 }
