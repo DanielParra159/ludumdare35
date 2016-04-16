@@ -6,12 +6,11 @@ var seleccion;
 if(cliente == "obj_Faller")
 {
    
-    if(num==0)
-        seleccion = obj_Chupito;
+    seleccion = obj_Chupito;
           
 }else if(cliente == "obj_DarkMartin"){
 
-    seleccion = obj_Manhattan;
+    seleccion = obj_ChupitoAsiatico;
     
 }else if(cliente == "obj_Dani")
 {
@@ -65,7 +64,23 @@ if(cliente == "obj_Faller")
         seleccion = obj_Manhattan;
     else
         seleccion = obj_Azucar;
-}
+        
+}else if(cliente == "obj_Chinorri")
+{
+    var num = irandom_range(0,3);
+    
+    if(num==0)
+        seleccion = obj_Chupito;
+    else if(num==1)
+        seleccion = obj_OldFashioned;
+    else if(num==2)
+        seleccion = obj_Destornillador;
+    else if(num==3)
+        seleccion = obj_Manhattan;
+    else
+        seleccion = obj_Azucar;
+}else
+    seleccion = obj_Azucar;
 
 return seleccion;
 
