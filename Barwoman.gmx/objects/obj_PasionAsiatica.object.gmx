@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentPasionAsiatica += 1;
 
-AddLiquid();
+AddLiquid(obj_PasionAsiatica);
 </string>
           </argument>
         </arguments>

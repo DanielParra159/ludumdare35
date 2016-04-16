@@ -102,6 +102,8 @@
       <sprite>sprites\spr_Margarita</sprite>
       <sprite>sprites\spr_Martini</sprite>
       <sprite>sprites\spr_SermiesaFoco</sprite>
+      <sprite>sprites\spr_Experimental</sprite>
+      <sprite>sprites\spr_Sunrise</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -173,6 +175,8 @@
     <object>objects\obj_bocadillo</object>
     <objects name="Drinks">
       <object>objects\obj_Manhattan</object>
+      <object>objects\obj_Experimental</object>
+      <object>objects\obj_Sunrise</object>
       <object>objects\obj_OldFashioned</object>
       <object>objects\obj_Chupito</object>
       <object>objects\obj_ChupitoAsiatico</object>

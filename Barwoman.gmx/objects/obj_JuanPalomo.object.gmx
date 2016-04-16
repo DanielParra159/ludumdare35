@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentJuanPalomo += 1;
 
-AddLiquid();
+AddLiquid(obj_JuanPalomo);
 </string>
           </argument>
         </arguments>

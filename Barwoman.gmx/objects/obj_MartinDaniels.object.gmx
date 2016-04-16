@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentMartinDaniels += 1;
 
-
+AddLiquid(obj_MartinDaniels);
 </string>
           </argument>
         </arguments>

@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>obj_CocteleraFondo</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentCassalla += 1;
 
-
+AddLiquid(obj_Cassalla);
 </string>
           </argument>
         </arguments>

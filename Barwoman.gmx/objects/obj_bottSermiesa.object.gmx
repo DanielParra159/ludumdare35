@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentSermiesa += 1;
 
-AddLiquid();
+AddLiquid(obj_Sermiesa);
 </string>
           </argument>
         </arguments>

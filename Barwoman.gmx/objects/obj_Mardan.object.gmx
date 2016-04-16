@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentMardan += 1;
 
-AddLiquid();
+AddLiquid(obj_Mardan);
 </string>
           </argument>
         </arguments>

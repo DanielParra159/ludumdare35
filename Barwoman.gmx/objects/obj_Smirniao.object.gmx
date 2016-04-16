@@ -71,7 +71,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_CocteleraFondo</object>
+            <object>-100</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentSmirniao += 1;
 
-AddLiquid();
+AddLiquid(obj_Smirniao);
 </string>
           </argument>
         </arguments>

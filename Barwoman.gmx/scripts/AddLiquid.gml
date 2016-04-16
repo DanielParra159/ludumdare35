@@ -1,8 +1,7 @@
-///AddLiquid()
+///AddLiquid(argument0)
 
-//var objBotella = argument0;
+var objBotella = argument0;
 
-var numeroLiquido;
 
 if(instance_exists(obj_CocteleraNivel1)){
     
@@ -27,5 +26,8 @@ if(instance_exists(obj_CocteleraNivel1)){
     nivel1 = instance_create(cocteleraFondo.x,cocteleraFondo.y,obj_CocteleraNivel1);
     nivel1.image_blend = make_colour_rgb(50,2,71);
 }
+
+
+
 
 
