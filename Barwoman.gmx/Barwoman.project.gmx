@@ -69,6 +69,7 @@
     <sprites name="Ingredients">
       <sprite>sprites\spr_Azucar</sprite>
       <sprite>sprites\spr_Naranjas</sprite>
+      <sprite>sprites\spr_Limones</sprite>
     </sprites>
     <sprites name="Bottles">
       <sprite>sprites\spr_Cassalla</sprite>
@@ -208,6 +209,7 @@
     </objects>
     <objects name="Ingredients">
       <object>objects\obj_Azucar</object>
+      <object>objects\obj_Limon</object>
       <object>objects\obj_Naranjas</object>
     </objects>
     <objects name="Coctelera">

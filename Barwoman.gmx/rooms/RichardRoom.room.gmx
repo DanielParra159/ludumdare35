@@ -74,7 +74,6 @@ global.money = 0;</code>
     <instance objName="obj_Naranjas" x="224" y="148" name="inst_213C5275" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_mixer" x="612" y="204" name="inst_ED69C062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bottSermiesa" x="320" y="136" name="inst_EA0A5265" locked="0" code="" scaleX="0.5" scaleY="0.423076927661896" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="84" y="584" name="inst_057A9C8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spawner" x="92" y="580" name="inst_7C5DC5DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spawner" x="204" y="584" name="inst_91F76887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spawner" x="340" y="584" name="inst_FFBA6B36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
