@@ -9,6 +9,7 @@ global.currentMardan = 0;
 global.currentSmirniao = 0;
 global.currentAzucar = 0;
 global.currentNaranjas = 0;
+global.currentSermiesa = 0;
 
 return 0;
 }

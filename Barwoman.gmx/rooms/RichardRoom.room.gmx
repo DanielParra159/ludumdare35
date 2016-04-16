@@ -80,6 +80,8 @@ global.money = 0;</code>
     <instance objName="obj_Wendy" x="352" y="388" name="inst_BE6F7FA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Dani" x="488" y="460" name="inst_B1B2064E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Chinorri" x="44" y="460" name="inst_9A023FDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_DanRock" x="756" y="456" name="inst_F2B5F347" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bottSermiesa" x="320" y="136" name="inst_EA0A5265" locked="0" code="" scaleX="0.5" scaleY="0.423076927661896" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

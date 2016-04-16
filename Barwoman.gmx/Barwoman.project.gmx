@@ -157,6 +157,7 @@
     <object>objects\GUI</object>
     <objects name="Bottles">
       <object>objects\obj_Cassalla</object>
+      <object>objects\obj_bottSermiesa</object>
       <object>objects\obj_Mardan</object>
       <object>objects\obj_JuanPalomo</object>
       <object>objects\obj_MartinDaniels</object>
