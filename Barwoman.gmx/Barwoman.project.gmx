@@ -134,8 +134,6 @@
       <sprite>sprites\spr_SermiesaMini</sprite>
       <sprite>sprites\spr_Margarita</sprite>
       <sprite>sprites\spr_Martini</sprite>
-      <sprite>sprites\spr_Sunrise</sprite>
-      <sprite>sprites\spr_Experimental</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -181,8 +179,8 @@
       <object>objects\obj_Chinorri</object>
       <object>objects\obj_Richy</object>
       <object>objects\obj_Dani</object>
-      <object>objects\obj_Client</object>
-      <object>objects\obj_Client</object>
+      <object>objects\obj_Girl</object>
+      <object>objects\obj_Wendy</object>
       <object>objects\obj_Faller</object>
       <object>objects\obj_Client</object>
       <object>objects\obj_Barwoman</object>
@@ -210,8 +208,6 @@
       <object>objects\obj_Margarita</object>
       <object>objects\obj_Martini</object>
       <object>objects\obj_Sermiesa</object>
-      <object>objects\obj_Sunrise</object>
-      <object>objects\obj_Experimental</object>
     </objects>
     <objects name="Ingredients">
       <object>objects\obj_Azucar</object>
