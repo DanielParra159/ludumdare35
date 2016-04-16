@@ -21,7 +21,7 @@ else if(drink == obj_Chupito)
 }
 else if(drink == obj_Destornillador)
 {
-    if(global.currentSmirniao == 1 && currentNaranjas == 1)
+    if(global.currentSmirniao == 1 && global.currentNaranjas == 1)
         goodDrink = true;
 }
 
