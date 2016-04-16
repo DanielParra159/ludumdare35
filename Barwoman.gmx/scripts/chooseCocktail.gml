@@ -87,6 +87,13 @@ if(cliente == "obj_Faller")
 }else
     seleccion = obj_Azucar;
 
+//Sonido de pedir bebida
+/*if(seleccion == obj_Cassalla)
+    audio_play_sound(sound20_cachaza-male , 10, false);
+else if(seleccion == obj_Wendy)
+    audio_play_sound(sound56_sermiesa-wendy , 10, false);
+*/
+    
 return seleccion;
 
 
