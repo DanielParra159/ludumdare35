@@ -89,6 +89,8 @@
       <sprite>sprites\down_atlas_Richy</sprite>
       <sprite>sprites\up_atlas_Chinorri</sprite>
       <sprite>sprites\down_atlas_Chinorri</sprite>
+      <sprite>sprites\up_atlas_DanRock</sprite>
+      <sprite>sprites\down_atlas_DanRock</sprite>
       <sprite>sprites\up_atlas_Dani</sprite>
       <sprite>sprites\down_atlas_Dani</sprite>
       <sprite>sprites\idle_atlas_Barwoman</sprite>
@@ -178,6 +180,9 @@
     <objects name="Decoration">
       <object>objects\obj_barra</object>
       <object>objects\obj_Estanteria</object>
+      <object>objects\obj_Taburete</object>
+      <object>objects\obj_Mesa</object>
+      <object>objects\obj_Mesa2</object>
     </objects>
     <objects name="Placeholders">
       <object>objects\obj_counter</object>
