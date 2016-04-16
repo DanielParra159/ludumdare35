@@ -8,18 +8,18 @@
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>349</bbox_right>
+  <bbox_right>442</bbox_right>
   <bbox_top>0</bbox_top>
-  <bbox_bottom>499</bbox_bottom>
+  <bbox_bottom>86</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>350</width>
-  <height>500</height>
+  <width>443</width>
+  <height>87</height>
   <frames>
-    <frame index="0">images\spr_big_mixer_0.png</frame>
+    <frame index="0">images\spr_Barra_0.png</frame>
   </frames>
 </sprite>

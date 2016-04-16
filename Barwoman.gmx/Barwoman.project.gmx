@@ -6,20 +6,11 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_Manager</sprite>
-    <sprite>sprites\spr_menu_preview</sprite>
-    <sprite>sprites\spr_counter</sprite>
-    <sprite>sprites\spr_costumer</sprite>
-    <sprite>sprites\spr_menu_view</sprite>
-    <sprite>sprites\spr_shelf</sprite>
-    <sprite>sprites\spr_bottle1</sprite>
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_mixer</sprite>
-    <sprite>sprites\spr_big_mixer</sprite>
     <sprites name="Bottles">
       <sprite>sprites\spr_Cassalla</sprite>
       <sprite>sprites\spr_MartinDaniels</sprite>
       <sprite>sprites\spr_JuanPalomo</sprite>
+      <sprite>sprites\spr_PasionAsiatica</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_mix_button</sprite>
@@ -28,9 +19,30 @@
     <sprites name="Characters">
       <sprite>sprites\up_atlas_DarkMartin</sprite>
       <sprite>sprites\down_atlas_DarkMartin</sprite>
+      <sprite>sprites\idle_atlas_Barwoman</sprite>
+      <sprite>sprites\up_atlas_Faller</sprite>
+      <sprite>sprites\down_atlas_Faller</sprite>
     </sprites>
+    <sprites name="Placeholders">
+      <sprite>sprites\spr_mixer</sprite>
+      <sprite>sprites\spr_big_mixer</sprite>
+      <sprite>sprites\DebugGui</sprite>
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_menu_view</sprite>
+      <sprite>sprites\spr_costumer</sprite>
+      <sprite>sprites\spr_counter</sprite>
+      <sprite>sprites\spr_menu_preview</sprite>
+      <sprite>sprites\spr_shelf</sprite>
+    </sprites>
+    <sprites name="Decoration">
+      <sprite>sprites\bg_Bar</sprite>
+      <sprite>sprites\spr_Barra</sprite>
+    </sprites>
+    <sprite>sprites\spr_Bocadillo</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\MartinPatrols</path>
   </paths>
@@ -39,20 +51,11 @@
     <script>scripts\deliverMixer.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_Manager</object>
-    <object>objects\obj_menu_preview</object>
-    <object>objects\obj_counter</object>
-    <object>objects\obj_costumer</object>
-    <object>objects\obj_menu_view</object>
-    <object>objects\obj_shelf</object>
-    <object>objects\obj_bottle1</object>
-    <object>objects\obj_player</object>
-    <object>objects\obj_mixer</object>
-    <object>objects\obj_big_mixer</object>
     <objects name="Bottles">
       <object>objects\obj_Cassalla</object>
       <object>objects\obj_MartinDaniels</object>
       <object>objects\obj_JuanPalomo</object>
+      <object>objects\obj_PasionAsiatica</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_mix_button</object>
@@ -60,6 +63,22 @@
     </objects>
     <objects name="Characters">
       <object>objects\obj_DarkMartin</object>
+      <object>objects\obj_Faller</object>
+      <object>objects\obj_Barwoman</object>
+    </objects>
+    <objects name="Decoration">
+      <object>objects\obj_barra</object>
+    </objects>
+    <objects name="Placeholders">
+      <object>objects\obj_shelf</object>
+      <object>objects\obj_counter</object>
+      <object>objects\obj_costumer</object>
+      <object>objects\obj_bottle1</object>
+      <object>objects\obj_mixer</object>
+      <object>objects\obj_big_mixer</object>
+      <object>objects\obj_menu_preview</object>
+      <object>objects\obj_menu_view</object>
+      <object>objects\GUI</object>
     </objects>
   </objects>
   <rooms name="rooms">

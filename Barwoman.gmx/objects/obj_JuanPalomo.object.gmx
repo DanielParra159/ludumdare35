@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="6" enumb="0">
+    <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
         <id>404</id>
@@ -55,7 +55,7 @@
             <kind>1</kind>
             <string>global.currentJuanPalomo += 1;
 
-show_message("Añadido 1 Juna palomo ");
+
 </string>
           </argument>
         </arguments>
