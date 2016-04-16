@@ -67,21 +67,21 @@ global.money = 0;</code>
     <instance objName="GUI" x="12" y="8" name="inst_BFD41B49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barra" x="304" y="256" name="inst_D906CB91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Estanteria" x="316" y="32" name="inst_38312FE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_DarkMartin" x="600" y="456" name="inst_0466382A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Faller" x="200" y="456" name="inst_5B935E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_MartinDaniels" x="348" y="16" name="inst_0ABB1257" locked="0" code="" scaleX="0.416666656732559" scaleY="0.348571419715881" colour="4294967295" rotation="0"/>
     <instance objName="obj_Smirniao" x="188" y="16" name="inst_7B178E93" locked="0" code="" scaleX="0.360000014305115" scaleY="0.347826093435287" colour="4294967295" rotation="0"/>
     <instance objName="obj_Mardan" x="236" y="24" name="inst_B62C674B" locked="0" code="" scaleX="2" scaleY="1.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_Azucar" x="156" y="148" name="inst_13921F93" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Naranjas" x="224" y="148" name="inst_213C5275" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_mixer" x="612" y="204" name="inst_ED69C062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Richy" x="300" y="448" name="inst_1A85AA4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Girl" x="116" y="460" name="inst_2705B94A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wendy" x="352" y="388" name="inst_BE6F7FA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Dani" x="488" y="460" name="inst_B1B2064E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Chinorri" x="44" y="460" name="inst_9A023FDE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_DanRock" x="756" y="456" name="inst_F2B5F347" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bottSermiesa" x="320" y="136" name="inst_EA0A5265" locked="0" code="" scaleX="0.5" scaleY="0.423076927661896" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="84" y="584" name="inst_057A9C8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="92" y="580" name="inst_7C5DC5DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="204" y="584" name="inst_91F76887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="340" y="584" name="inst_FFBA6B36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="456" y="584" name="inst_789E71F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="276" y="588" name="inst_D119AC5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="400" y="588" name="inst_542CA803" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Spawner" x="164" y="580" name="inst_6CD7D967" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

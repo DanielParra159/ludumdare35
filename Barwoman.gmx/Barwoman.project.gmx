@@ -154,6 +154,7 @@
     <script>scripts\chooseCocktail.gml</script>
     <script>scripts\Destroy.gml</script>
     <script>scripts\goodDeliver.gml</script>
+    <script>scripts\choosePlayerToSpawn.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\GUI</object>
@@ -217,6 +218,7 @@
       <object>objects\obj_CocteleraNivel3</object>
       <object>objects\obj_mixer</object>
     </objects>
+    <object>objects\Spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RichardRoom</room>
