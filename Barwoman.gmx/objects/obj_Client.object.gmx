@@ -186,7 +186,8 @@ if(direction == 90)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(cursor_sprite == spr_mixer &amp;&amp; waitingForDrink)
+            <string>
+if(cursor_sprite == spr_mixer &amp;&amp; waitingForDrink)
 {
    
     

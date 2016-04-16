@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Draw GUI
-
+/*
 draw_text(0, 0, "Casalla "+ string(global.currentCassalla) );
 draw_text(0, 10, "Juan Palomo "+ string(global.currentJuanPalomo) );
 draw_text(0, 20, "Pasion Asiatica "+ string(global.currentPasionAsiatica) );
@@ -37,8 +37,8 @@ draw_text(0, 60, "Azucar "+ string(global.currentAzucar) );
 draw_text(0, 70, "Naranjas "+ string(global.currentNaranjas) );
 draw_text(0, 80, "Sermiesas "+ string(global.currentSermiesa) );
 draw_text(0, 90, "Limones "+ string(global.currentLimones) );
-
-draw_text(0, 100, "Money "+ string(global.money));
+*/
+draw_text(0, 50, "Money "+ string(global.money));
 </string>
           </argument>
         </arguments>
