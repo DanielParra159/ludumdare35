@@ -128,6 +128,7 @@
       <sprite>sprites\spr_OldFashioned</sprite>
       <sprite>sprites\spr_Chupito</sprite>
       <sprite>sprites\spr_Destornillador</sprite>
+      <sprite>sprites\spr_ChupitoAsiatico</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -167,7 +168,13 @@
     </objects>
     <objects name="Characters">
       <object>objects\obj_DarkMartin</object>
+      <object>objects\obj_Chinorri</object>
+      <object>objects\obj_Richy</object>
+      <object>objects\obj_Dani</object>
+      <object>objects\obj_Girl</object>
+      <object>objects\obj_Wendy</object>
       <object>objects\obj_Faller</object>
+      <object>objects\obj_Client</object>
       <object>objects\obj_Barwoman</object>
     </objects>
     <objects name="Decoration">
@@ -188,6 +195,7 @@
       <object>objects\obj_Manhattan</object>
       <object>objects\obj_OldFashioned</object>
       <object>objects\obj_Chupito</object>
+      <object>objects\obj_ChupitoAsiatico</object>
       <object>objects\obj_Destornillador</object>
     </objects>
     <objects name="Ingredients">
