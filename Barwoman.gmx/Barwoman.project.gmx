@@ -70,6 +70,8 @@
       <sprite>sprites\spr_MartinDaniels</sprite>
       <sprite>sprites\spr_JuanPalomo</sprite>
       <sprite>sprites\spr_PasionAsiatica</sprite>
+      <sprite>sprites\spr_Mardan</sprite>
+      <sprite>sprites\spr_Smirniao</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_mix_button</sprite>
@@ -132,9 +134,11 @@
     <object>objects\GUI</object>
     <objects name="Bottles">
       <object>objects\obj_Cassalla</object>
+      <object>objects\obj_Mardan</object>
       <object>objects\obj_JuanPalomo</object>
       <object>objects\obj_MartinDaniels</object>
       <object>objects\obj_PasionAsiatica</object>
+      <object>objects\obj_Smirniao</object>
     </objects>
     <objects name="Buttons">
       <object>objects\obj_mix_button</object>
