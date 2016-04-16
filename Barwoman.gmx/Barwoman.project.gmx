@@ -26,11 +26,14 @@
       <sprite>sprites\spr_cancelmix_button</sprite>
     </sprites>
     <sprites name="Characters">
-      <sprite>sprites\spr_DarkMartin</sprite>
+      <sprite>sprites\up_atlas_DarkMartin</sprite>
+      <sprite>sprites\down_atlas_DarkMartin</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\MartinPatrols</path>
+  </paths>
   <objects name="objects">
     <object>objects\obj_Manager</object>
     <object>objects\obj_menu_preview</object>

@@ -83,7 +83,7 @@ global.currentJuanPalomo = 0;</code>
     <instance objName="obj_mixer" x="448" y="155" name="inst_8E1DBA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cassalla" x="384" y="32" name="inst_5037064D" locked="0" code="" scaleX="0.372093021869659" scaleY="0.324324309825897" colour="4294967295" rotation="0"/>
     <instance objName="obj_MartinDaniels" x="256" y="32" name="inst_58DA7195" locked="0" code="" scaleX="0.359550565481186" scaleY="0.347826093435287" colour="4294967295" rotation="0"/>
-    <instance objName="obj_DarkMartin" x="288" y="160" name="inst_6418D827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_DarkMartin" x="128" y="352" name="inst_6418D827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_JuanPalomo" x="288" y="32" name="inst_148B7491" locked="0" code="" scaleX="0.333333343267441" scaleY="0.268571436405182" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
