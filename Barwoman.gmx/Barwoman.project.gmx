@@ -96,6 +96,8 @@
       <sprite>sprites\down_atlas_Girl</sprite>
       <sprite>sprites\up_atlas_Faller</sprite>
       <sprite>sprites\down_atlas_Faller</sprite>
+      <sprite>sprites\up_atlas_Wendy</sprite>
+      <sprite>sprites\down_atlas_Wendy</sprite>
     </sprites>
     <sprites name="Placeholders">
       <sprite>sprites\spr_mixer</sprite>
