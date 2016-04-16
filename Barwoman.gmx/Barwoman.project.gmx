@@ -19,6 +19,12 @@
     <sprites name="Characters">
       <sprite>sprites\up_atlas_DarkMartin</sprite>
       <sprite>sprites\down_atlas_DarkMartin</sprite>
+      <sprite>sprites\up_atlas_Richy</sprite>
+      <sprite>sprites\down_atlas_Richy</sprite>
+      <sprite>sprites\up_atlas_Chinorri</sprite>
+      <sprite>sprites\down_atlas_Chinorri</sprite>
+      <sprite>sprites\up_atlas_Dani</sprite>
+      <sprite>sprites\down_atlas_Dani</sprite>
       <sprite>sprites\idle_atlas_Barwoman</sprite>
       <sprite>sprites\up_atlas_Faller</sprite>
       <sprite>sprites\down_atlas_Faller</sprite>
