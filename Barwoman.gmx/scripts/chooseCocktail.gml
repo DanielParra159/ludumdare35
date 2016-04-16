@@ -5,10 +5,11 @@ var seleccion;
 
 if(cliente == "obj_Faller")
 {
-    seleccion = obj_Manhattan;
+    seleccion = obj_Chupito;
+    
 }else if(cliente == "obj_DarkMartin"){
 
-    seleccion = obj_Cassalla;
+    seleccion = obj_Manhattan;
 }else
 {
     seleccion = obj_OldFashioned;
