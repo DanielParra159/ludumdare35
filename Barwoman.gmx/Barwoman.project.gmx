@@ -135,6 +135,7 @@
       <sprite>sprites\spr_Margarita</sprite>
       <sprite>sprites\spr_Martini</sprite>
       <sprite>sprites\spr_Sunrise</sprite>
+      <sprite>sprites\spr_Experimental</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -209,7 +210,8 @@
       <object>objects\obj_Margarita</object>
       <object>objects\obj_Martini</object>
       <object>objects\obj_Sermiesa</object>
-      <object>objects\obk_Sunrise</object>
+      <object>objects\obj_Sunrise</object>
+      <object>objects\obj_Experimental</object>
     </objects>
     <objects name="Ingredients">
       <object>objects\obj_Azucar</object>
