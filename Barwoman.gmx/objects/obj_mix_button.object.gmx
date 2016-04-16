@@ -25,14 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Cursor, Mostrar mensaje, poner deliver mixer en true
+            <string>///Cursor,  poner deliver mixer en true
 
-show_message("Has Mezclado 
- MartinDaniels = " + string(global.currentMartinDaniels)+ "
-  Casalla = " + string(global.currentCassalla)+ "
-    Juan paloomo = " + string(global.currentJuanPalomo)+ "
- " );
- 
 global.deliverableMixer = true; 
 cursor_sprite = spr_mixer; 
 
