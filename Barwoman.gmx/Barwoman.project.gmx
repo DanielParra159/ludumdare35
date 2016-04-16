@@ -4,7 +4,66 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sounds name="VocesCocktail">
+      <sound>sound\sound56_sermiesa-wendy</sound>
+      <sound>sound\sound20_cachaza-male</sound>
+      <sound>sound\sound25_casalletaxe2</sound>
+      <sound>sound\sound11_vodka-male</sound>
+      <sound>sound\sound1_sexonthebeach-male</sound>
+      <sound>sound\sound2_soda-male</sound>
+      <sound>sound\sound5_tequilasunrise-male</sound>
+      <sound>sound\sound15_asianpassion-female</sound>
+      <sound>sound\sound46_mojito-male</sound>
+      <sound>sound\sound9_vermouth-male</sound>
+      <sound>sound\sound8_triplesec-male</sound>
+      <sound>sound\sound6_tomcollins-male</sound>
+      <sound>sound\sound53_ron-male</sound>
+      <sound>sound\sound4_tequila-male</sound>
+      <sound>sound\sound7_tonic-male</sound>
+      <sound>sound\sound47_negroni-male</sound>
+      <sound>sound\sound10_vesper-male</sound>
+      <sound>sound\sound3_sugar-male</sound>
+      <sound>sound\sound17_beer-male</sound>
+      <sound>sound\sound14_wine-male</sound>
+      <sound>sound\sound55_screwdriver-male</sound>
+      <sound>sound\sound30_cola-male</sound>
+      <sound>sound\sound13_whiterussian-male</sound>
+      <sound>sound\sound16_asianpassion-male</sound>
+      <sound>sound\sound52_redvermouth-male</sound>
+      <sound>sound\sound12_whiskey-male</sound>
+      <sound>sound\sound39_grenadine-male</sound>
+      <sound>sound\sound18_blackrussian-male</sound>
+      <sound>sound\sound22_caipiroska-male</sound>
+      <sound>sound\sound50_pinacolada-male</sound>
+      <sound>sound\sound42_limejuice-male</sound>
+      <sound>sound\sound51_pineapplejuice-male</sound>
+      <sound>sound\sound27_champagne-male</sound>
+      <sound>sound\sound19_blueberryjuice-male</sound>
+      <sound>sound\sound21_caipirina-male</sound>
+      <sound>sound\sound28_coconutcream-male</sound>
+      <sound>sound\sound31_cosmopolitan-male</sound>
+      <sound>sound\sound26_casallikaxe</sound>
+      <sound>sound\sound24_campari-male</sound>
+      <sound>sound\sound36_fruit-male</sound>
+      <sound>sound\sound23_calimocho-male</sound>
+      <sound>sound\sound32_cream-male</sound>
+      <sound>sound\sound49_orange-male</sound>
+      <sound>sound\sound29_coffee-male</sound>
+      <sound>sound\sound38_gintonic-male</sound>
+      <sound>sound\sound33_cubalibre-male</sound>
+      <sound>sound\sound37_ginebra-male</sound>
+      <sound>sound\sound35_french75-male</sound>
+      <sound>sound\sound34_daiquiri-male</sound>
+      <sound>sound\sound41_lilet-male</sound>
+      <sound>sound\sound43_manhattan-male</sound>
+      <sound>sound\sound44_margarita-male</sound>
+      <sound>sound\sound40_lemonjuice-male</sound>
+      <sound>sound\sound54_sangria-male</sound>
+      <sound>sound\sound48_oldfashioned-male</sound>
+      <sound>sound\sound45_martini-male</sound>
+    </sounds>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Bottles">
       <sprite>sprites\spr_Cassalla</sprite>
@@ -26,6 +85,8 @@
       <sprite>sprites\up_atlas_Dani</sprite>
       <sprite>sprites\down_atlas_Dani</sprite>
       <sprite>sprites\idle_atlas_Barwoman</sprite>
+      <sprite>sprites\up_atlas_Girl</sprite>
+      <sprite>sprites\down_atlas_Girl</sprite>
       <sprite>sprites\up_atlas_Faller</sprite>
       <sprite>sprites\down_atlas_Faller</sprite>
     </sprites>
@@ -44,6 +105,7 @@
       <sprite>sprites\spr_Barra</sprite>
       <sprite>sprites\spr_Estanteria</sprite>
       <sprite>sprites\bg_Bar</sprite>
+      <sprite>sprites\spr_Taburete</sprite>
     </sprites>
     <sprite>sprites\spr_Bocadillo</sprite>
     <sprites name="Drinks">
