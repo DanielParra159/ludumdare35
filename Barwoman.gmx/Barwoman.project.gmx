@@ -105,7 +105,6 @@
       <sprite>sprites\spr_costumer</sprite>
       <sprite>sprites\spr_counter</sprite>
       <sprite>sprites\spr_menu_preview</sprite>
-      <sprite>sprites\spr_shelf</sprite>
     </sprites>
     <sprites name="Decoration">
       <sprite>sprites\spr_Barra</sprite>
