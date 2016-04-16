@@ -3,7 +3,7 @@
   <spriteName>spr_menu</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-3</depth>
+  <depth>-9</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -57,29 +57,23 @@
     <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
-        <relative>-1</relative>
+        <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_menu_view</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-100</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>-100</string>
+            <kind>1</kind>
+            <string>if(!instance_exists(obj_menu_view)&amp;&amp; !instance_exists(obj_CocteleraFondo))
+    instance_create(self.x - 150, self.y - 120,obj_menu_view);
+</string>
           </argument>
         </arguments>
       </action>
