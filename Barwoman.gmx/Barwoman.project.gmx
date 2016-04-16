@@ -133,6 +133,7 @@
       <sprite>sprites\spr_Sermiesa</sprite>
       <sprite>sprites\spr_SermiesaMini</sprite>
       <sprite>sprites\spr_Margarita</sprite>
+      <sprite>sprites\spr_Martini</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -205,6 +206,7 @@
       <object>objects\obj_ChupitoAsiatico</object>
       <object>objects\obj_Destornillador</object>
       <object>objects\obj_Margarita</object>
+      <object>objects\obj_Martini</object>
       <object>objects\obj_Sermiesa</object>
     </objects>
     <objects name="Ingredients">
