@@ -88,12 +88,31 @@ if(cliente == "obj_Faller")
     seleccion = obj_Azucar;
 
 //Sonido de pedir bebida
-/*if(seleccion == obj_Cassalla)
-    audio_play_sound(sound20_cachaza-male , 10, false);
-else if(seleccion == obj_Wendy)
-    audio_play_sound(sound56_sermiesa-wendy , 10, false);
-*/
+if(seleccion == obj_Chupito)
+    audio_play_sound(CassallaSound , 10, false);
     
+else if(seleccion == obj_Sermiesa)
+    audio_play_sound(SermesaSound , 10, false);
+    
+else if(seleccion == obj_OldFashioned)
+    audio_play_sound(OldFashionedSound , 10, false);
+    
+else if(seleccion == obj_Martini)
+    audio_play_sound(MartiniSound , 10, false);
+    
+else if(seleccion == obj_Destornillador)
+    audio_play_sound(ScrewDriverSound , 10, false);
+    
+else if(seleccion == obj_ChupitoAsiatico)
+    audio_play_sound(AsianPasionSound , 10, false);
+    
+else if(seleccion == obj_Margarita)
+    audio_play_sound(MargaritaSound , 10, false);
+    
+else if(seleccion == obj_Manhattan)
+    audio_play_sound(ManhattanSound , 10, false);
+
+
 return seleccion;
 
 
