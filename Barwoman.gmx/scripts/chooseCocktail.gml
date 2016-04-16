@@ -5,13 +5,13 @@ var seleccion;
 
 if(cliente == "obj_Faller")
 {
-    seleccion = obj_Cassalla;
+    seleccion = obj_Manhattan;
 }else if(cliente == "obj_DarkMartin"){
 
-    seleccion = obj_MartinDaniels;
+    seleccion = obj_Cassalla;
 }else
 {
-    seleccion = obj_JuanPalomo;
+    seleccion = obj_OldFashioned;
 }
 
 return seleccion;

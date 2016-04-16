@@ -229,21 +229,24 @@ if(direction == 90)
             <kind>1</kind>
             <string>if(cursor_sprite == spr_mixer)
 {
-    deliverMixer(random_range(10,26))
+   
     
-    /*
+    
     //lo que habia pedido
-    if(goodDeliver())
+    if(goodDeliver(self.seleccion))
     {
-        ;
+         deliverMixer(random_range(10,26));
     }
     else{ // lo que no he pedido
     
-    
+        show_message("no es lo que pedí, fuck you");
     }
-    */
+    
    
-   
+    global.deliverableMixer = false;
+    self.waitingForDrink = false;
+    cursor_sprite = -1; 
+    initializeGlobal();
     alarm[0] = 1;
 }
 
@@ -285,8 +288,8 @@ if(direction == 90)
             <kind>1</kind>
             <string>///Cliente que llega
 var clientObjName = "obj_Faller";
-var bubbleXOffset = -15;
-var bubbleyOffset = -45;
+var bubbleXOffset = 0;
+var bubbleyOffset = 0;
 
 
 

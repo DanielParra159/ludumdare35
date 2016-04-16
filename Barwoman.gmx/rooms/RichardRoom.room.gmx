@@ -63,16 +63,16 @@ global.money = 0;</code>
     <instance objName="obj_costumer" x="460" y="236" name="inst_042BF554" locked="0" code="" scaleX="2.125" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
     <instance objName="obj_mixer" x="660" y="208" name="inst_8E1DBA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cassalla" x="424" y="20" name="inst_5037064D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_MartinDaniels" x="348" y="32" name="inst_58DA7195" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_JuanPalomo" x="540" y="8" name="inst_148B7491" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_JuanPalomo" x="524" y="8" name="inst_148B7491" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_PasionAsiatica" x="472" y="32" name="inst_3B1871D8" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Barwoman" x="572" y="152" name="inst_3B7A2AA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Barwoman" x="576" y="220" name="inst_3B7A2AA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="GUI" x="64" y="8" name="inst_BFD41B49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barra" x="304" y="256" name="inst_D906CB91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Faller" x="356" y="372" name="inst_D10026BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Faller" x="360" y="456" name="inst_D10026BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Estanteria" x="316" y="32" name="inst_38312FE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_DarkMartin" x="592" y="372" name="inst_0466382A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Faller" x="184" y="372" name="inst_5B935E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_DarkMartin" x="596" y="456" name="inst_0466382A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Faller" x="184" y="444" name="inst_5B935E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MartinDaniels" x="348" y="16" name="inst_0ABB1257" locked="0" code="" scaleX="0.416666656732559" scaleY="0.348571419715881" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
