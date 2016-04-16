@@ -129,6 +129,7 @@
       <sprite>sprites\spr_Chupito</sprite>
       <sprite>sprites\spr_Destornillador</sprite>
       <sprite>sprites\spr_ChupitoAsiatico</sprite>
+      <sprite>sprites\spr_Sermiesa</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -198,6 +199,7 @@
       <object>objects\obj_Chupito</object>
       <object>objects\obj_ChupitoAsiatico</object>
       <object>objects\obj_Destornillador</object>
+      <object>objects\obj_Sermiesa</object>
     </objects>
     <objects name="Ingredients">
       <object>objects\obj_Azucar</object>
