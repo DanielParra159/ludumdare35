@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="5" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
     <sounds name="VocesCocktail">
@@ -121,6 +122,13 @@
       <sprite>sprites\spr_Chupito</sprite>
       <sprite>sprites\spr_Destornillador</sprite>
     </sprites>
+    <sprites name="Coctelera">
+      <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
+      <sprite>sprites\sprite44_spr_CocteleraFrente</sprite>
+      <sprite>sprites\sprite45_spr_CocteleraNivel1</sprite>
+      <sprite>sprites\sprite46_spr_CocteleraNivel2</sprite>
+      <sprite>sprites\sprite47_spr_CocteleraNivel3</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -180,6 +188,13 @@
     <objects name="Ingredients">
       <object>objects\obj_Azucar</object>
       <object>objects\obj_Naranjas</object>
+    </objects>
+    <objects name="Coctelera">
+      <object>objects\obj_CocteleraFondo</object>
+      <object>objects\obj_CocteleraFrente</object>
+      <object>objects\obj_CocteleraNivel1</object>
+      <object>objects\obj_CocteleraNivel2</object>
+      <object>objects\obj_CocteleraNivel3</object>
     </objects>
   </objects>
   <rooms name="rooms">
