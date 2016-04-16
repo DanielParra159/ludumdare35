@@ -99,9 +99,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.currentAzucar += 1;
+            <string>global.currentLimones += 1;
 
-
+AddLiquid(obj_Limon);
 </string>
           </argument>
         </arguments>

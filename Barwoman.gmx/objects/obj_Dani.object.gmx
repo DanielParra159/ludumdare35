@@ -60,7 +60,7 @@
             <string>sprite_index = up_atlas_Dani; //Set the correct sprite (walking animation)
 image_speed = 1/6; 
 
-
+waitingForDrink = false;
 </string>
           </argument>
         </arguments>

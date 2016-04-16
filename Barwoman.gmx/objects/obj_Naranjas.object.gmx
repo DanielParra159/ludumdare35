@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentNaranjas += 1;
 
-
+AddLiquid(obj_Naranjas);
 </string>
           </argument>
         </arguments>

@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentCassalla += 1;
 
-
+AddLiquid(obj_Cassalla);
 </string>
           </argument>
         </arguments>

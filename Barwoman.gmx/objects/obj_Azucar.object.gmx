@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentAzucar += 1;
 
-
+AddLiquid(obj_Azucar);
 </string>
           </argument>
         </arguments>
