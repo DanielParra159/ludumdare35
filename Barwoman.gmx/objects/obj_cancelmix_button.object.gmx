@@ -25,10 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Mostrar mensaje y poner deliver mixer en true
+            <string>///Poner deliver mixer en true
 
-show_message("reset mixer" );
- 
 initializeGlobal();
 
 </string>
