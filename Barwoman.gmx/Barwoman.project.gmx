@@ -46,11 +46,14 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\GoToBar</path>
+    <path>paths\LeaveBar</path>
+    <path>paths\path1</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\initializeGlobal.gml</script>
     <script>scripts\deliverMixer.gml</script>
     <script>scripts\chooseCocktail.gml</script>
+    <script>scripts\Destroy.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\GUI</object>

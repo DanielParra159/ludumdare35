@@ -31,6 +31,8 @@ draw_text(0, 0, "Casalla "+ string(global.currentCassalla) );
 draw_text(0, 10, "Juan Palomo "+ string(global.currentJuanPalomo) );
 draw_text(0, 20, "Pasion Asiatica "+ string(global.currentPasionAsiatica) );
 draw_text(0, 30, "Martin Daniels "+ string(global.currentMartinDaniels) );
+
+draw_text(0, 60, "Money "+ string(global.money));
 </string>
           </argument>
         </arguments>

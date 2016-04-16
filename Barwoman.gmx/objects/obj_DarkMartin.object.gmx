@@ -11,6 +11,38 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+        <id>119</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_path</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>8</kind>
+            <path>GoToBar</path>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>2</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -33,6 +65,42 @@ image_speed = 1/6;
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Destroy bubble and order
+
+var self.waitingForDrink = false;
+
+var m_orderInstance = instance_find(self.seleccion,self.pedidoId);
+var m_bubbleInstance = instance_find(obj_bocadillo,self.bubbleId);
+
+with (m_orderInstance) instance_destroy();
+with (m_bubbleInstance) instance_destroy();
+
+
+//salchicha.instance_destroy();
+//var instanciaPedido = self.pedidoId;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>119</id>
@@ -49,7 +117,7 @@ image_speed = 1/6;
         <arguments>
           <argument>
             <kind>8</kind>
-            <path>GoToBar</path>
+            <path>LeaveBar</path>
           </argument>
           <argument>
             <kind>0</kind>
@@ -83,14 +151,7 @@ image_speed = 1/6;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/*if(poin == 1){
-    sprite_index = up_atlas_DarkMartin; 
-}
-else{
-    sprite_index = down_atlas_DarkMartin; 
-}
-*/
-//image_angle = direction - 90;
+            <string>///Cambiar direction según esté mirando
 
 if(direction == 90)
 {
@@ -103,6 +164,151 @@ if(direction == 90)
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>waitingForDrink</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>true</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(cursor_sprite == spr_mixer)
+{
+    
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>424</id>
+        <kind>2</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+    </event>
+    <event eventtype="7" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Cliente que llega
+var clientObjName = "obj_DarkMartin";
+var bubbleXOffset = -15;
+var bubbleyOffset = -45;
+
+
+
+//cambiar velcidad animacion
+image_speed = 1/16; 
+
+//Create bubble
+self.bubbleId = instance_number(instance_create(self.x + bubbleXOffset, self.y + bubbleXOffset, obj_bocadillo));
+
+
+//Get and create Random cocktail
+var self.waitingForDrink = true;
+
+var self.seleccion = chooseCocktail(clientObjName);
+self.pedidoId = instance_number(instance_create(self.x, self.y, self.seleccion));
+
+
+//Start countdown
+
+alarm[0] = random_range(600, 1000);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>203</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_kill_object</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>
