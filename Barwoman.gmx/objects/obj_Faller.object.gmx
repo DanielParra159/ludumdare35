@@ -88,12 +88,13 @@ image_speed = 1/6;
 
 var self.waitingForDrink = false;
 
-
+/*
 var m_orderInstance = instance_find(self.seleccion,self.pedidoId);
 var m_bubbleInstance = instance_find(obj_bocadillo,self.bubbleId);
+*/
+with (self.pedidoId) instance_destroy();
+with (self.bubbleId) instance_destroy();
 
-with (m_orderInstance) instance_destroy();
-with (m_bubbleInstance) instance_destroy();
 
 
 //salchicha.instance_destroy();
@@ -288,8 +289,8 @@ if(direction == 90)
             <kind>1</kind>
             <string>///Cliente que llega
 var clientObjName = "obj_Faller";
-var bubbleXOffset = 0;
-var bubbleyOffset = 0;
+var XOffset = 10;
+var yOffset = -30;
 
 
 
@@ -297,14 +298,14 @@ var bubbleyOffset = 0;
 image_speed = 1/16; 
 
 //Create bubble
-self.bubbleId = instance_number(instance_create(self.x + bubbleXOffset, self.y + bubbleXOffset, obj_bocadillo));
+self.bubbleId = instance_create(self.x + XOffset, self.y + yOffset, obj_bocadillo);
 
 
 //Get and create Random cocktail
 var self.waitingForDrink = true;
 
 var self.seleccion = chooseCocktail(clientObjName);
-self.pedidoId = instance_number(instance_create(self.x, self.y, self.seleccion));
+self.pedidoId = instance_create(self.x +XOffset, self.y+yOffset, self.seleccion);
 
 
 //Start countdown

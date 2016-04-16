@@ -16,7 +16,7 @@ global.currentCassalla = 0;
 global.currentMartinDaniels = 0;
 global.currentJuanPalomo = 0;
 */
-
+randomize();
 initializeGlobal();
 global.money = 0;</code>
   <enableViews>0</enableViews>
@@ -60,8 +60,6 @@ global.money = 0;</code>
   </views>
   <instances>
     <instance objName="obj_menu_preview" x="728" y="128" name="inst_E00D855F" locked="0" code="" scaleX="2.13000011444092" scaleY="2.13000011444092" colour="4294967295" rotation="0"/>
-    <instance objName="obj_costumer" x="460" y="236" name="inst_042BF554" locked="0" code="" scaleX="2.125" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mixer" x="660" y="208" name="inst_8E1DBA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cassalla" x="424" y="20" name="inst_5037064D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_JuanPalomo" x="524" y="8" name="inst_148B7491" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_PasionAsiatica" x="472" y="32" name="inst_3B1871D8" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
@@ -73,11 +71,11 @@ global.money = 0;</code>
     <instance objName="obj_DarkMartin" x="596" y="456" name="inst_0466382A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Faller" x="184" y="444" name="inst_5B935E74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_MartinDaniels" x="348" y="16" name="inst_0ABB1257" locked="0" code="" scaleX="0.416666656732559" scaleY="0.348571419715881" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Estanteria" x="84" y="32" name="inst_8D5CBF49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Smirniao" x="188" y="16" name="inst_7B178E93" locked="0" code="" scaleX="0.360000014305115" scaleY="0.347826093435287" colour="4294967295" rotation="0"/>
     <instance objName="obj_Mardan" x="236" y="24" name="inst_B62C674B" locked="0" code="" scaleX="2" scaleY="1.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_Azucar" x="156" y="148" name="inst_13921F93" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Naranjas" x="224" y="148" name="inst_213C5275" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mixer" x="612" y="204" name="inst_ED69C062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

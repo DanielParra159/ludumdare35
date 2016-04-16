@@ -3,6 +3,7 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="5" name="datafiles"/>
   <NewExtensions/>
   <sounds name="sound">
     <sounds name="VocesCocktail">
@@ -95,6 +96,8 @@
       <sprite>sprites\down_atlas_Girl</sprite>
       <sprite>sprites\up_atlas_Faller</sprite>
       <sprite>sprites\down_atlas_Faller</sprite>
+      <sprite>sprites\up_atlas_Wendy</sprite>
+      <sprite>sprites\down_atlas_Wendy</sprite>
     </sprites>
     <sprites name="Placeholders">
       <sprite>sprites\spr_mixer</sprite>
@@ -105,7 +108,6 @@
       <sprite>sprites\spr_costumer</sprite>
       <sprite>sprites\spr_counter</sprite>
       <sprite>sprites\spr_menu_preview</sprite>
-      <sprite>sprites\spr_shelf</sprite>
     </sprites>
     <sprites name="Decoration">
       <sprite>sprites\spr_Barra</sprite>
@@ -125,6 +127,13 @@
       <sprite>sprites\spr_Chupito</sprite>
       <sprite>sprites\spr_Destornillador</sprite>
     </sprites>
+    <sprites name="Coctelera">
+      <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
+      <sprite>sprites\sprite44_spr_CocteleraFrente</sprite>
+      <sprite>sprites\sprite45_spr_CocteleraNivel1</sprite>
+      <sprite>sprites\sprite46_spr_CocteleraNivel2</sprite>
+      <sprite>sprites\sprite47_spr_CocteleraNivel3</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -132,7 +141,6 @@
   <paths name="paths">
     <path>paths\GoToBar</path>
     <path>paths\LeaveBar</path>
-    <path>paths\path1</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\initializeGlobal.gml</script>
@@ -165,12 +173,8 @@
       <object>objects\obj_Estanteria</object>
     </objects>
     <objects name="Placeholders">
-      <object>objects\obj_shelf</object>
       <object>objects\obj_counter</object>
-      <object>objects\obj_costumer</object>
       <object>objects\obj_bottle1</object>
-      <object>objects\obj_mixer</object>
-      <object>objects\obj_big_mixer</object>
       <object>objects\obj_menu_preview</object>
       <object>objects\obj_menu_view</object>
     </objects>
@@ -184,6 +188,14 @@
     <objects name="Ingredients">
       <object>objects\obj_Azucar</object>
       <object>objects\obj_Naranjas</object>
+    </objects>
+    <objects name="Coctelera">
+      <object>objects\obj_CocteleraFondo</object>
+      <object>objects\obj_CocteleraFrente</object>
+      <object>objects\obj_CocteleraNivel1</object>
+      <object>objects\obj_CocteleraNivel2</object>
+      <object>objects\obj_CocteleraNivel3</object>
+      <object>objects\obj_mixer</object>
     </objects>
   </objects>
   <rooms name="rooms">
