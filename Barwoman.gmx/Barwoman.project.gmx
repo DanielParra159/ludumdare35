@@ -23,6 +23,9 @@
       <sprite>sprites\spr_Azucar</sprite>
       <sprite>sprites\spr_Naranjas</sprite>
       <sprite>sprites\spr_Limones</sprite>
+      <sprite>sprites\spr_AzucarFoco</sprite>
+      <sprite>sprites\spr_LimonesFoco</sprite>
+      <sprite>sprites\spr_NaranjasFoco</sprite>
     </sprites>
     <sprites name="Bottles">
       <sprite>sprites\spr_Cassalla</sprite>
@@ -31,6 +34,11 @@
       <sprite>sprites\spr_PasionAsiatica</sprite>
       <sprite>sprites\spr_Mardan</sprite>
       <sprite>sprites\spr_Smirniao</sprite>
+      <sprite>sprites\spr_MardanFoco</sprite>
+      <sprite>sprites\spr_PasionAsiaticaFoco</sprite>
+      <sprite>sprites\spr_SmirniaoFoco</sprite>
+      <sprite>sprites\spr_CassallaFoco</sprite>
+      <sprite>sprites\spr_JuanPalomoFoco</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_mix_button</sprite>
