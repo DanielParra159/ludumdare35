@@ -289,8 +289,8 @@ if(direction == 90)
             <kind>1</kind>
             <string>///Cliente que llega
 var clientObjName = object_get_name(object_index);
-var XOffset = 10;
-var yOffset = -30;
+var XOffset = -60;
+var yOffset = -80;
 
 
 
@@ -305,7 +305,7 @@ self.bubbleId = instance_create(self.x + XOffset, self.y + yOffset, obj_bocadill
 var self.waitingForDrink = true;
 
 var self.seleccion = chooseCocktail(clientObjName);
-self.pedidoId = instance_create(self.x +XOffset, self.y+yOffset, self.seleccion);
+self.pedidoId = instance_create(self.x +XOffset+20, self.y+yOffset-17, self.seleccion);
 
 
 //Start countdown
