@@ -3,7 +3,7 @@
   <spriteName>spr_mixer</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-5</depth>
+  <depth>-50</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -67,7 +67,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_big_mixer</object>
+            <object>obj_CocteleraFondo</object>
           </argument>
           <argument>
             <kind>0</kind>

@@ -136,7 +136,6 @@
   <paths name="paths">
     <path>paths\GoToBar</path>
     <path>paths\LeaveBar</path>
-    <path>paths\path1</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\initializeGlobal.gml</script>
@@ -169,12 +168,8 @@
       <object>objects\obj_Estanteria</object>
     </objects>
     <objects name="Placeholders">
-      <object>objects\obj_shelf</object>
       <object>objects\obj_counter</object>
-      <object>objects\obj_costumer</object>
       <object>objects\obj_bottle1</object>
-      <object>objects\obj_mixer</object>
-      <object>objects\obj_big_mixer</object>
       <object>objects\obj_menu_preview</object>
       <object>objects\obj_menu_view</object>
     </objects>
@@ -195,6 +190,7 @@
       <object>objects\obj_CocteleraNivel1</object>
       <object>objects\obj_CocteleraNivel2</object>
       <object>objects\obj_CocteleraNivel3</object>
+      <object>objects\obj_mixer</object>
     </objects>
   </objects>
   <rooms name="rooms">

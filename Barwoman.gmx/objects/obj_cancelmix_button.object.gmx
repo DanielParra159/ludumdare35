@@ -73,7 +73,7 @@ initializeGlobal();
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_big_mixer</whoName>
+        <whoName>obj_CocteleraFondo</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
