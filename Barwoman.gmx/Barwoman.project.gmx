@@ -39,10 +39,13 @@
       <sprite>sprites\spr_SmirniaoFoco</sprite>
       <sprite>sprites\spr_CassallaFoco</sprite>
       <sprite>sprites\spr_JuanPalomoFoco</sprite>
+      <sprite>sprites\spr_MartinDanielsFoco</sprite>
     </sprites>
     <sprites name="Buttons">
-      <sprite>sprites\spr_mix_button</sprite>
-      <sprite>sprites\spr_cancelmix_button</sprite>
+      <sprite>sprites\spr_mix</sprite>
+      <sprite>sprites\spr_cancel</sprite>
+      <sprite>sprites\spr_CancelFoco</sprite>
+      <sprite>sprites\spr_MixFoco</sprite>
     </sprites>
     <sprites name="Characters">
       <sprite>sprites\up_atlas_DarkMartin</sprite>
@@ -81,10 +84,11 @@
       <sprite>sprites\spr_Taburete</sprite>
       <sprite>sprites\spr_Mesa</sprite>
       <sprite>sprites\spr_Mesa2</sprite>
-      <sprite>sprites\sprite35_spr_menu</sprite>
+      <sprite>sprites\spr_menu</sprite>
       <sprite>sprites\sprite36_spr_menuFull</sprite>
       <sprite>sprites\spr_Barril</sprite>
       <sprite>sprites\spr_TV</sprite>
+      <sprite>sprites\spr_menuFoco</sprite>
     </sprites>
     <sprite>sprites\spr_Bocadillo</sprite>
     <sprites name="Drinks">
@@ -97,8 +101,7 @@
       <sprite>sprites\spr_SermiesaMini</sprite>
       <sprite>sprites\spr_Margarita</sprite>
       <sprite>sprites\spr_Martini</sprite>
-      <sprite>sprites\spr_Experimental</sprite>
-      <sprite>sprites\spr_Sunrise</sprite>
+      <sprite>sprites\spr_SermiesaFoco</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
@@ -136,8 +139,8 @@
       <object>objects\obj_Smirniao</object>
     </objects>
     <objects name="Buttons">
-      <object>objects\obj_mix_button</object>
-      <object>objects\obj_cancelmix_button</object>
+      <object>objects\obj_mix</object>
+      <object>objects\obj_cancel</object>
     </objects>
     <objects name="Characters">
       <object>objects\obj_DarkMartin</object>
@@ -168,8 +171,6 @@
     <object>objects\obj_bocadillo</object>
     <objects name="Drinks">
       <object>objects\obj_Manhattan</object>
-      <object>objects\obj_Experimental</object>
-      <object>objects\obj_Sunrise</object>
       <object>objects\obj_OldFashioned</object>
       <object>objects\obj_Chupito</object>
       <object>objects\obj_ChupitoAsiatico</object>

@@ -56,7 +56,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_mix_button</whoName>
+        <whoName>obj_mix</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>
@@ -70,7 +70,7 @@
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
         <codestring></codestring>
-        <whoName>obj_cancelmix_button</whoName>
+        <whoName>obj_cancel</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
       </action>

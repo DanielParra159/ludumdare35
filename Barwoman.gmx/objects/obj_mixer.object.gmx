@@ -119,7 +119,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_mix_button</object>
+            <object>obj_mix</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -147,7 +147,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>obj_cancelmix_button</object>
+            <object>obj_cancel</object>
           </argument>
           <argument>
             <kind>0</kind>
