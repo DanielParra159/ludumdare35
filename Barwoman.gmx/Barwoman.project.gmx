@@ -4,10 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\sound0</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_Manager</sprite>
     <sprite>sprites\spr_menu_preview</sprite>
     <sprite>sprites\spr_counter</sprite>
     <sprite>sprites\spr_costumer</sprite>
@@ -20,11 +19,20 @@
     <sprites name="Bottles">
       <sprite>sprites\spr_Cassalla</sprite>
       <sprite>sprites\spr_MartinDaniels</sprite>
+      <sprite>sprites\spr_JuanPalomo</sprite>
+    </sprites>
+    <sprites name="Buttons">
+      <sprite>sprites\spr_mix_button</sprite>
+      <sprite>sprites\spr_cancelmix_button</sprite>
+    </sprites>
+    <sprites name="Characters">
+      <sprite>sprites\spr_DarkMartin</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_Manager</object>
     <object>objects\obj_menu_preview</object>
     <object>objects\obj_counter</object>
     <object>objects\obj_costumer</object>
@@ -37,6 +45,14 @@
     <objects name="Bottles">
       <object>objects\obj_Cassalla</object>
       <object>objects\obj_MartinDaniels</object>
+      <object>objects\obj_JuanPalomo</object>
+    </objects>
+    <objects name="Buttons">
+      <object>objects\obj_mix_button</object>
+      <object>objects\obj_cancelmix_button</object>
+    </objects>
+    <objects name="Characters">
+      <object>objects\obj_DarkMartin</object>
     </objects>
   </objects>
   <rooms name="rooms">

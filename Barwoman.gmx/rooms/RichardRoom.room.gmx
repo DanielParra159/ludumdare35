@@ -7,10 +7,12 @@
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>16512</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>global.currentCassalla = 0;
+global.currentMartinDaniels = 0;
+global.currentJuanPalomo = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -66,7 +68,6 @@
     <instance objName="obj_counter" x="640" y="192" name="inst_7FEE8B3F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_counter" x="672" y="192" name="inst_214F6713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_preview" x="576" y="192" name="inst_E00D855F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_costumer" x="320" y="224" name="inst_EA5186EF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_costumer" x="416" y="224" name="inst_042BF554" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_costumer" x="512" y="224" name="inst_262FC74F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shelf" x="384" y="96" name="inst_F28F37F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -77,12 +78,13 @@
     <instance objName="obj_shelf" x="416" y="96" name="inst_C4B51D2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shelf" x="480" y="96" name="inst_3D8AFA11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shelf" x="448" y="96" name="inst_C4B6ED21" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_bottle1" x="288" y="69" name="inst_59B73508" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bottle1" x="352" y="69" name="inst_54A237E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="512" y="100" name="inst_33DD8E79" locked="0" code="" scaleX="2" scaleY="1.95238089561462" colour="4294967295" rotation="0"/>
     <instance objName="obj_mixer" x="448" y="155" name="inst_8E1DBA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cassalla" x="384" y="32" name="inst_5037064D" locked="0" code="" scaleX="0.372093021869659" scaleY="0.324324309825897" colour="4294967295" rotation="0"/>
     <instance objName="obj_MartinDaniels" x="256" y="32" name="inst_58DA7195" locked="0" code="" scaleX="0.359550565481186" scaleY="0.347826093435287" colour="4294967295" rotation="0"/>
+    <instance objName="obj_DarkMartin" x="288" y="160" name="inst_6418D827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_JuanPalomo" x="288" y="32" name="inst_148B7491" locked="0" code="" scaleX="0.333333343267441" scaleY="0.268571436405182" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
