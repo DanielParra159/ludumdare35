@@ -114,8 +114,11 @@
       <sprite>sprites\spr_Estanteria</sprite>
       <sprite>sprites\bg_Bar</sprite>
       <sprite>sprites\spr_Taburete</sprite>
+      <sprite>sprites\spr_Mesa</sprite>
+      <sprite>sprites\spr_Mesa2</sprite>
       <sprite>sprites\sprite35_spr_menu</sprite>
       <sprite>sprites\sprite36_spr_menuFull</sprite>
+      <sprite>sprites\spr_Barril</sprite>
     </sprites>
     <sprite>sprites\spr_Bocadillo</sprite>
     <sprites name="Drinks">
