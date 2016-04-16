@@ -116,6 +116,8 @@
     </sprites>
     <sprite>sprites\spr_funck</sprite>
     <sprite>sprites\spr_thx</sprite>
+    <sprite>sprites\spr_Billetes</sprite>
+    <sprite>sprites\spt_background</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -215,6 +217,8 @@
     </objects>
     <object>objects\obj_funck</object>
     <object>objects\obj_thx</object>
+    <object>objects\obj_Billetes</object>
+    <object>objects\obj_background</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RichardRoom</room>

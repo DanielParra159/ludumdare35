@@ -38,7 +38,7 @@ draw_text(0, 70, "Naranjas "+ string(global.currentNaranjas) );
 draw_text(0, 80, "Sermiesas "+ string(global.currentSermiesa) );
 draw_text(0, 90, "Limones "+ string(global.currentLimones) );
 */
-draw_text(0, 50, "Money "+ string(global.money));
+draw_text(50, 50, string(global.money));
 </string>
           </argument>
         </arguments>
