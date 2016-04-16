@@ -65,6 +65,10 @@
     </sounds>
   </sounds>
   <sprites name="sprites">
+    <sprites name="Ingredients">
+      <sprite>sprites\spr_Azucar</sprite>
+      <sprite>sprites\spr_Naranjas</sprite>
+    </sprites>
     <sprites name="Bottles">
       <sprite>sprites\spr_Cassalla</sprite>
       <sprite>sprites\spr_MartinDaniels</sprite>
@@ -171,6 +175,10 @@
       <object>objects\obj_OldFashioned</object>
       <object>objects\obj_Chupito</object>
       <object>objects\obj_Destornillador</object>
+    </objects>
+    <objects name="Ingredients">
+      <object>objects\obj_Azucar</object>
+      <object>objects\obj_Naranjas</object>
     </objects>
   </objects>
   <rooms name="rooms">
