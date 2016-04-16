@@ -112,6 +112,8 @@
       <sprite>sprites\spr_CocteleraCompleta</sprite>
       <sprite>sprites\spr_CocteleraCompletaFoco</sprite>
     </sprites>
+    <sprite>sprites\spr_funck</sprite>
+    <sprite>sprites\spr_thx</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -206,6 +208,8 @@
       <object>objects\drink1</object>
       <object>objects\drink2</object>
     </objects>
+    <object>objects\obj_funck</object>
+    <object>objects\obj_thx</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RichardRoom</room>

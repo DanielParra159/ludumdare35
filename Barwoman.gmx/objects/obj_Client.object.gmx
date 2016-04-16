@@ -236,11 +236,12 @@ if(direction == 90)
     //lo que habia pedido
     if(goodDeliver(self.seleccion))
     {
+            instance_create(self.x -60, self.y -80, obj_thx);
          deliverMixer(random_range(10,26));
     }
     else{ // lo que no he pedido
-    
-        show_message("no es lo que pedí, fuck you");
+        instance_create(self.x -60, self.y -80, obj_funck);
+        //show_message("no es lo que pedí, fuck you");
     }
     
    
