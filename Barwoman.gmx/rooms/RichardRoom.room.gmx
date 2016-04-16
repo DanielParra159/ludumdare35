@@ -3,16 +3,21 @@
   <caption></caption>
   <width>1024</width>
   <height>768</height>
-  <vsnap>4</vsnap>
-  <hsnap>4</hsnap>
+  <vsnap>32</vsnap>
+  <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>-1</persistent>
   <colour>16512</colour>
   <showcolour>-1</showcolour>
-  <code>global.currentCassalla = 0;
+  <code>/*global.deliverMixer = false;
+
+global.currentCassalla = 0;
 global.currentMartinDaniels = 0;
-global.currentJuanPalomo = 0;</code>
+global.currentJuanPalomo = 0;
+*/
+
+initializeGlobal();</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -86,6 +91,7 @@ global.currentJuanPalomo = 0;</code>
     <instance objName="obj_DarkMartin" x="128" y="352" name="inst_6418D827" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_JuanPalomo" x="288" y="4" name="inst_148B7491" locked="0" code="" scaleX="0.32989689707756" scaleY="0.342857152223587" colour="4294967295" rotation="0"/>
     <instance objName="obj_Manager" x="544" y="0" name="inst_4396C873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Manager" x="672" y="352" name="inst_801245BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
