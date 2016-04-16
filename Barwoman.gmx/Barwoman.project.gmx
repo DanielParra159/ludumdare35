@@ -113,6 +113,8 @@
     <sprites name="Drinks">
       <sprite>sprites\spr_Manhattan</sprite>
       <sprite>sprites\spr_OldFashioned</sprite>
+      <sprite>sprites\spr_Chupito</sprite>
+      <sprite>sprites\spr_Destornillador</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -167,6 +169,8 @@
     <objects name="Drinks">
       <object>objects\obj_Manhattan</object>
       <object>objects\obj_OldFashioned</object>
+      <object>objects\obj_Chupito</object>
+      <object>objects\obj_Destornillador</object>
     </objects>
   </objects>
   <rooms name="rooms">
