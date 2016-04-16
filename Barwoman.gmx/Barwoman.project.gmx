@@ -39,6 +39,7 @@
       <sprite>sprites\spr_SmirniaoFoco</sprite>
       <sprite>sprites\spr_CassallaFoco</sprite>
       <sprite>sprites\spr_JuanPalomoFoco</sprite>
+      <sprite>sprites\spr_MartinDanielsFoco</sprite>
     </sprites>
     <sprites name="Buttons">
       <sprite>sprites\spr_mix_button</sprite>
@@ -97,6 +98,7 @@
       <sprite>sprites\spr_SermiesaMini</sprite>
       <sprite>sprites\spr_Margarita</sprite>
       <sprite>sprites\spr_Martini</sprite>
+      <sprite>sprites\spr_SermiesaFoco</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
