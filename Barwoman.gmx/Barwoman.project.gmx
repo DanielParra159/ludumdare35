@@ -130,6 +130,7 @@
       <sprite>sprites\spr_Destornillador</sprite>
       <sprite>sprites\spr_ChupitoAsiatico</sprite>
       <sprite>sprites\spr_Sermiesa</sprite>
+      <sprite>sprites\spr_SermiesaMini</sprite>
     </sprites>
     <sprites name="Coctelera">
       <sprite>sprites\sprite43_spr_CocteleraFondo</sprite>
