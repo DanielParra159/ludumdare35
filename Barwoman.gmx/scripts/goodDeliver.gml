@@ -39,6 +39,22 @@ else if(drink == obj_Destornillador)
     if(global.currentJuanPalomo == 1 && global.currentLimones == 1)
         goodDrink = true;
 }
+else if(drink == obj_Sunrise)
+{
+    if(global.currentJuanPalomo == 1 && global.currentNaranjas == 1)
+        goodDrink = true;
+        
+}else if(drink == obj_Experimental)
+{
+    if(global.currentCassalla == 1 && global.currentMartinDaniels == 1)
+        goodDrink = true;
+        
+}else if(drink == obj_Martini)
+{
+    if(global.currentMardan == 1 && global.currentSmirniao == 1)
+        goodDrink = true;
+}
+
 
 
 return goodDrink;
