@@ -10,7 +10,7 @@ if(cliente == "obj_Faller")
           
 }else if(cliente == "obj_DarkMartin"){
 
-    seleccion = obj_Manhattan;
+    seleccion = obj_ChupitoAsiatico;
     
 }else if(cliente == "obj_Dani")
 {

@@ -23,6 +23,11 @@ else if(drink == obj_Destornillador)
 {
     if(global.currentSmirniao == 1 && global.currentNaranjas == 1)
         goodDrink = true;
+        
+}else if(drink == obj_ChupitoAsiatico)
+{
+    if(global.currentPasionAsiatica == 2)
+        goodDrink = true;
 }
 
 
