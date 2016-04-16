@@ -72,7 +72,7 @@ global.money = 0;</code>
     <instance objName="obj_Mardan" x="236" y="24" name="inst_B62C674B" locked="0" code="" scaleX="2" scaleY="1.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_Azucar" x="156" y="148" name="inst_13921F93" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Naranjas" x="212" y="148" name="inst_213C5275" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_mixer" x="612" y="204" name="inst_ED69C062" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_mixer" x="620" y="192" name="inst_ED69C062" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
     <instance objName="obj_bottSermiesa" x="320" y="136" name="inst_EA0A5265" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spawner" x="92" y="580" name="inst_7C5DC5DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Spawner" x="204" y="584" name="inst_91F76887" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

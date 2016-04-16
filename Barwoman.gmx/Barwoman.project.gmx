@@ -109,6 +109,8 @@
       <sprite>sprites\sprite45_spr_CocteleraNivel1</sprite>
       <sprite>sprites\sprite46_spr_CocteleraNivel2</sprite>
       <sprite>sprites\sprite47_spr_CocteleraNivel3</sprite>
+      <sprite>sprites\spr_CocteleraCompleta</sprite>
+      <sprite>sprites\spr_CocteleraCompletaFoco</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
