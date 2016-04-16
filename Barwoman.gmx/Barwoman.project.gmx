@@ -168,6 +168,7 @@
     </objects>
     <objects name="Characters">
       <object>objects\obj_DarkMartin</object>
+      <object>objects\obj_DanRock</object>
       <object>objects\obj_Chinorri</object>
       <object>objects\obj_Richy</object>
       <object>objects\obj_Dani</object>
