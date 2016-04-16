@@ -90,6 +90,7 @@
       <sprite>sprites\down_atlas_Richy</sprite>
       <sprite>sprites\up_atlas_Chinorri</sprite>
       <sprite>sprites\down_atlas_Chinorri</sprite>
+      <sprite>sprites\dowm_alas_chinorri_dance</sprite>
       <sprite>sprites\up_atlas_DanRock</sprite>
       <sprite>sprites\down_atlas_DanRock</sprite>
       <sprite>sprites\up_atlas_Dani</sprite>
@@ -237,6 +238,9 @@
       <object>objects\RichyEst</object>
       <object>objects\DaniEst</object>
       <object>objects\BarWomanEst</object>
+      <object>objects\ChinorriDanceEst</object>
+      <object>objects\drink1</object>
+      <object>objects\drink2</object>
     </objects>
   </objects>
   <rooms name="rooms">
