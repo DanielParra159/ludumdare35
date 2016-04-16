@@ -59,7 +59,7 @@ global.money = 0;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_menu_preview" x="628" y="68" name="inst_E00D855F" locked="0" code="" scaleX="2.13000011444092" scaleY="2.13000011444092" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menu_preview" x="728" y="128" name="inst_E00D855F" locked="0" code="" scaleX="2.13000011444092" scaleY="2.13000011444092" colour="4294967295" rotation="0"/>
     <instance objName="obj_costumer" x="460" y="236" name="inst_042BF554" locked="0" code="" scaleX="2.125" scaleY="2.28571438789368" colour="4294967295" rotation="0"/>
     <instance objName="obj_mixer" x="660" y="208" name="inst_8E1DBA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Cassalla" x="424" y="20" name="inst_5037064D" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
