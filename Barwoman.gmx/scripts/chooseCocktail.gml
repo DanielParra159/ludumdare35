@@ -12,6 +12,7 @@ if(cliente == "obj_Faller")
 
     seleccion = obj_ChupitoAsiatico;
     
+    
 }else if(cliente == "obj_Dani")
 {
     var num = irandom_range(0,2);
@@ -22,7 +23,7 @@ if(cliente == "obj_Faller")
         
 }else if(cliente == "obj_Richy")
 {
-    var num = irandom_range(0,3);
+    var num = irandom_range(0,5);
     
     if(num==0)
         seleccion = obj_Chupito;
@@ -32,6 +33,10 @@ if(cliente == "obj_Faller")
         seleccion = obj_Margarita;
     else if(num==3)
         seleccion = obj_Manhattan;
+    else if(num==4)
+        seleccion = obj_Experimental;
+    else if(num==5)
+        seleccion = obj_Martini;
     else
         seleccion = obj_Azucar;
         
@@ -42,7 +47,7 @@ if(cliente == "obj_Faller")
         
 }else if(cliente == "obj_Girl")
 {
-    var num = irandom_range(0,3);
+    var num = irandom_range(0,4);
     
     if(num==0)
         seleccion = obj_Chupito;
@@ -52,36 +57,44 @@ if(cliente == "obj_Faller")
         seleccion = obj_Margarita;
     else if(num==3)
         seleccion = obj_Manhattan;
+    else if(num==4)
+        seleccion = obj_Sunrise;
     else
         seleccion = obj_Azucar;
         
 }else if(cliente == "obj_Chinorri")
 {
-    var num = irandom_range(0,3);
+    var num = irandom_range(0,4);
     
     if(num==0)
         seleccion = obj_Margarita;
     else if(num==1)
-        seleccion = obj_OldFashioned;
+        seleccion = obj_Sunrise;
     else if(num==2)
-        seleccion = obj_Destornillador;
+        seleccion = obj_Martini;
     else if(num==3)
         seleccion = obj_Manhattan;
+    else if(num==4)
+        seleccion = obj_Destornillador;
     else
         seleccion = obj_Azucar;
         
+        
+        
 }else if(cliente == "obj_DanRock")
 {
-    var num = irandom_range(0,3);
+    var num = irandom_range(0,4);
     
     if(num==0)
-        seleccion = obj_Chupito;
+        seleccion = obj_Sunrise;
     else if(num==1)
         seleccion = obj_OldFashioned;
     else if(num==2)
         seleccion = obj_Margarita;
     else if(num==3)
         seleccion = obj_Manhattan;
+    else if(num==4)
+        seleccion = obj_Experimental;        
     else
         seleccion = obj_Azucar;
 }else
@@ -112,6 +125,8 @@ else if(seleccion == obj_Margarita)
 else if(seleccion == obj_Manhattan)
     audio_play_sound(ManhattanSound , 10, false);
 
+else if(seleccion == obj_Sunrise)
+    audio_play_sound(TequilaSunriseSound , 10, false);
 
 return seleccion;
 
