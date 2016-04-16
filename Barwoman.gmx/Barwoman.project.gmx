@@ -17,6 +17,7 @@
       <sound>sound\SermesaSound</sound>
       <sound>sound\TequilaSunriseSound</sound>
     </sounds>
+    <sound>sound\pourDrink</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Ingredients">

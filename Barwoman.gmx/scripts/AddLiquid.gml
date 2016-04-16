@@ -3,6 +3,7 @@
 var objBotella = argument0;
 var color = make_colour_rgb(200,32,11);
 
+audio_play_sound(pourDrink , 10, false);
 
 if(objBotella == obj_Cassalla)
     color = make_colour_rgb(255,255,255);
