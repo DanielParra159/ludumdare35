@@ -101,7 +101,7 @@
             <kind>1</kind>
             <string>global.currentSmirniao += 1;
 
-
+AddLiquid();
 </string>
           </argument>
         </arguments>
