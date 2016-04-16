@@ -75,7 +75,7 @@
 
 global.deliverableMixer = true; 
 cursor_sprite = spr_mixer; 
-
+audio_play_sound(shakeDrink , 10, false);
 
 </string>
           </argument>

@@ -18,6 +18,7 @@
       <sound>sound\TequilaSunriseSound</sound>
     </sounds>
     <sound>sound\pourDrink</sound>
+    <sound>sound\shakeDrink</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Ingredients">
