@@ -12,6 +12,11 @@
     <sprite>sprites\spr_counter</sprite>
     <sprite>sprites\spr_costumer</sprite>
     <sprite>sprites\spr_menu_view</sprite>
+    <sprite>sprites\spr_shelf</sprite>
+    <sprite>sprites\spr_bottle1</sprite>
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\spr_mixer</sprite>
+    <sprite>sprites\spr_big_mixer</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,6 +25,11 @@
     <object>objects\obj_counter</object>
     <object>objects\obj_costumer</object>
     <object>objects\obj_menu_view</object>
+    <object>objects\obj_shelf</object>
+    <object>objects\obj_bottle1</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_mixer</object>
+    <object>objects\obj_big_mixer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\RichardRoom</room>
