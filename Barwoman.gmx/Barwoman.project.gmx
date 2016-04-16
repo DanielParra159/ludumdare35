@@ -7,16 +7,16 @@
   <NewExtensions/>
   <sounds name="sound">
     <sounds name="VocesCocktail">
-      <sound>sound\sound56_sermiesa-wendy</sound>
-      <sound>sound\sound20_cachaza-male</sound>
+      <sound>sound\sermiesawendy</sound>
+      <sound>sound\cachazamale</sound>
       <sound>sound\sound25_casalletaxe2</sound>
-      <sound>sound\sound11_vodka-male</sound>
+      <sound>sound\vodkamale</sound>
       <sound>sound\sound1_sexonthebeach-male</sound>
       <sound>sound\sound2_soda-male</sound>
       <sound>sound\sound5_tequilasunrise-male</sound>
       <sound>sound\sound15_asianpassion-female</sound>
       <sound>sound\sound46_mojito-male</sound>
-      <sound>sound\sound9_vermouth-male</sound>
+      <sound>sound\sound9_vermouth_male</sound>
       <sound>sound\sound8_triplesec-male</sound>
       <sound>sound\sound6_tomcollins-male</sound>
       <sound>sound\sound53_ron-male</sound>
@@ -27,7 +27,7 @@
       <sound>sound\sound3_sugar-male</sound>
       <sound>sound\sound17_beer-male</sound>
       <sound>sound\sound14_wine-male</sound>
-      <sound>sound\sound55_screwdriver-male</sound>
+      <sound>sound\screwdrivermale</sound>
       <sound>sound\sound30_cola-male</sound>
       <sound>sound\sound13_whiterussian-male</sound>
       <sound>sound\sound16_asianpassion-male</sound>
@@ -61,8 +61,8 @@
       <sound>sound\sound44_margarita-male</sound>
       <sound>sound\sound40_lemonjuice-male</sound>
       <sound>sound\sound54_sangria-male</sound>
-      <sound>sound\sound48_oldfashioned-male</sound>
-      <sound>sound\sound45_martini-male</sound>
+      <sound>sound\oldfashionedmale</sound>
+      <sound>sound\martinimale</sound>
     </sounds>
   </sounds>
   <sprites name="sprites">
