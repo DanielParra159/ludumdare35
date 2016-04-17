@@ -132,6 +132,7 @@
       <sprite>sprites\ExitFoco</sprite>
       <sprite>sprites\Start</sprite>
       <sprite>sprites\MenuScreen</sprite>
+      <sprite>sprites\OptionsScreen</sprite>
       <sprite>sprites\Options</sprite>
       <sprite>sprites\OptionsFoco</sprite>
       <sprite>sprites\StartFoco</sprite>
@@ -251,6 +252,7 @@
       <object>objects\ChinorriDanceEst</object>
       <object>objects\drink1</object>
       <object>objects\drink2</object>
+      <object>objects\FallerEst</object>
     </objects>
     <object>objects\obj_funck</object>
     <object>objects\obj_thx</object>
@@ -281,6 +283,11 @@
   <help>
     <rtf>help.rtf</rtf>
   </help>
+  <audiogroups name="audiogroups">
+    <audiogroup name="audiogroup_default"/>
+    <audiogroup name="Sonidos"/>
+    <audiogroup name="Musica"/>
+  </audiogroups>
   <TutorialState>
     <IsTutorial>0</IsTutorial>
     <TutorialName></TutorialName>
