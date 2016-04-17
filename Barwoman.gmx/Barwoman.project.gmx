@@ -132,6 +132,8 @@
       <sprite>sprites\StartFoco</sprite>
     </sprites>
     <sprite>sprites\spr_displayScore</sprite>
+    <sprite>sprites\spr_restart</sprite>
+    <sprite>sprites\spr_goMenu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -248,7 +250,9 @@
       <object>objects\obj_Credits</object>
       <object>objects\obj_Exit</object>
       <object>objects\obj_MenuScreen</object>
+      <object>objects\obj_goMenu</object>
     </objects>
+    <object>objects\Score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
