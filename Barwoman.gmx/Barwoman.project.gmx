@@ -140,6 +140,7 @@
       <sprite>sprites\Tejera</sprite>
       <sprite>sprites\black</sprite>
       <sprite>sprites\spr_transparente</sprite>
+      <sprite>sprites\MenuScore</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -264,6 +265,7 @@
       <object>objects\obj_Tejera</object>
       <object>objects\obj_black</object>
       <object>objects\obj_back</object>
+      <object>objects\obj_MenuScore</object>
     </objects>
   </objects>
   <rooms name="rooms">

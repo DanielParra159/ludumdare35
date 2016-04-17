@@ -72,9 +72,7 @@ global.money = 0;</code>
     <instance objName="ingr2" x="212" y="148" name="inst_ECF23C8F" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="ingr3" x="264" y="140" name="inst_44346E97" locked="0" code="" scaleX="0.699999988079071" scaleY="0.699999988079071" colour="4294967295" rotation="0"/>
     <instance objName="drink5" x="476" y="32" name="inst_0B9E600F" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="108" y="52" name="inst_73766AB8" locked="0" code="" scaleX="2.01999998092651" scaleY="2.3199999332428" colour="4294967295" rotation="0"/>
     <instance objName="obj_Start" x="600" y="404" name="inst_0F46EB8E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="568" y="436" name="inst_CDCFC53D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
