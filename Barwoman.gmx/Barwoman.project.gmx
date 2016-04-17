@@ -142,6 +142,9 @@
       <sprite>sprites\black</sprite>
       <sprite>sprites\spr_transparente</sprite>
       <sprite>sprites\MenuScore</sprite>
+      <sprite>sprites\MenuOptions</sprite>
+      <sprite>sprites\SoundOff</sprite>
+      <sprite>sprites\SoundOn</sprite>
     </sprites>
     <sprite>sprites\spr_displayScore</sprite>
   </sprites>
@@ -273,6 +276,12 @@
       <object>objects\obj_displayMoney</object>
       <object>objects\obj_displayHappy</object>
       <object>objects\obj_displaySad</object>
+      <object>objects\obj_MenuOptions</object>
+      <object>objects\obj_SoundOn</object>
+      <object>objects\obj_MusicOn</object>
+      <object>objects\obj_SoundOff</object>
+      <object>objects\obj_MusicOff</object>
+
     </objects>
   </objects>
   <rooms name="rooms">
@@ -280,6 +289,7 @@
     <room>rooms\rm_Credits</room>
     <room>rooms\RichardRoom</room>
     <room>rooms\ScoreRoom</room>
+    <room>rooms\OptionsRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
