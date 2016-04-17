@@ -143,6 +143,7 @@
       <sprite>sprites\spr_transparente</sprite>
       <sprite>sprites\MenuScore</sprite>
     </sprites>
+    <sprite>sprites\spr_displayScore</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -269,6 +270,9 @@
       <object>objects\obj_black</object>
       <object>objects\obj_back</object>
       <object>objects\obj_MenuScore</object>
+      <object>objects\obj_displayMoney</object>
+      <object>objects\obj_displayHappy</object>
+      <object>objects\obj_displaySad</object>
     </objects>
   </objects>
   <rooms name="rooms">
