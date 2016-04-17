@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>
-if (audio_group_is_loaded(Musica))
+if (audio_group_is_loaded(Musica)&amp;&amp; !audio_is_playing(Tasca_Song))
    {
        show_debug_message("loadedo");          
 

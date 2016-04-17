@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>instance_create(self.x,self.y,obj_SoundOn);
 instance_destroy();
-audio_group_set_gain (Sonidos, 1, 0);
+audio_group_set_gain (Sonidos, 0.1, 0);
 </string>
           </argument>
         </arguments>
