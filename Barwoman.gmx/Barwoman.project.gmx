@@ -16,6 +16,7 @@
       <sound>sound\ScrewDriverSound</sound>
       <sound>sound\SermesaSound</sound>
       <sound>sound\TequilaSunriseSound</sound>
+      <sound>sound\ExperimentalSound</sound>
     </sounds>
     <sound>sound\pourDrink</sound>
     <sound>sound\shakeDrink</sound>

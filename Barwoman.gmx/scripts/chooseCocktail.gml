@@ -128,6 +128,9 @@ else if(seleccion == obj_Manhattan)
 else if(seleccion == obj_Sunrise)
     audio_play_sound(TequilaSunriseSound , 10, false);
 
+else if(seleccion == obj_Experimental)
+    audio_play_sound(ExperimentalSound , 10, false);
+    
 return seleccion;
 
 
