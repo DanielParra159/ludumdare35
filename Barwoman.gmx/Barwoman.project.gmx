@@ -19,6 +19,9 @@
     </sounds>
     <sound>sound\pourDrink</sound>
     <sound>sound\shakeDrink</sound>
+    <sounds name="Music">
+      <sound>sound\Tasca_Song</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Ingredients">
@@ -143,7 +146,11 @@
       <sprite>sprites\black</sprite>
       <sprite>sprites\spr_transparente</sprite>
       <sprite>sprites\MenuScore</sprite>
+      <sprite>sprites\MenuOptions</sprite>
+      <sprite>sprites\SoundOff</sprite>
+      <sprite>sprites\SoundOn</sprite>
     </sprites>
+    <sprite>sprites\spr_displayScore</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -271,6 +278,15 @@
       <object>objects\obj_black</object>
       <object>objects\obj_back</object>
       <object>objects\obj_MenuScore</object>
+      <object>objects\obj_displayMoney</object>
+      <object>objects\obj_displayHappy</object>
+      <object>objects\obj_displaySad</object>
+      <object>objects\obj_MenuOptions</object>
+      <object>objects\obj_SoundOn</object>
+      <object>objects\obj_MusicOn</object>
+      <object>objects\obj_SoundOff</object>
+      <object>objects\obj_MusicOff</object>
+
     </objects>
   </objects>
   <rooms name="rooms">
