@@ -18,7 +18,9 @@ global.currentJuanPalomo = 0;
 */
 randomize();
 initializeGlobal();
-global.money = 0;</code>
+global.money = 0;
+global.happyClient=0;
+global.sadClient=0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

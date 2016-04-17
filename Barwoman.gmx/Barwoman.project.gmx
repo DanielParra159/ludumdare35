@@ -252,7 +252,6 @@
       <object>objects\obj_MenuScreen</object>
       <object>objects\obj_goMenu</object>
     </objects>
-    <object>objects\Score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
