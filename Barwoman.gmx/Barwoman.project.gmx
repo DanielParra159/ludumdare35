@@ -136,6 +136,9 @@
       <sprite>sprites\Tejera</sprite>
       <sprite>sprites\black</sprite>
     </sprites>
+    <sprite>sprites\spr_displayScore</sprite>
+    <sprite>sprites\spr_restart</sprite>
+    <sprite>sprites\spr_goMenu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -224,6 +227,14 @@
     <objects name="Static">
       <object>objects\MartinEst</object>
       <object>objects\ChinorriEst</object>
+      <object>objects\ingr1</object>
+      <object>objects\ingr2</object>
+      <object>objects\ingr3</object>
+      <object>objects\drink4</object>
+      <object>objects\drink5</object>
+      <object>objects\drink6</object>
+      <object>objects\drink7</object>
+      <object>objects\drink3</object>
       <object>objects\DanRockEst</object>
       <object>objects\GirlEst</object>
       <object>objects\RichyEst</object>
@@ -235,6 +246,7 @@
     </objects>
     <object>objects\obj_funck</object>
     <object>objects\obj_thx</object>
+    <object>objects\obj_DisplayScore</object>
     <object>objects\obj_Billetes</object>
     <object>objects\obj_background</object>
     <objects name="Menu">
@@ -248,12 +260,16 @@
       <object>objects\obj_Martin</object>
       <object>objects\obj_Tejera</object>
       <object>objects\obj_black</object>
+	  <object>objects\obj_goMenu</object>
     </objects>
+    <object>objects\Score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\rm_Credits</room>
     <room>rooms\RichardRoom</room>
+    <room>rooms\ScoreRoom</room>
+    <room>rooms\OptionsRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
