@@ -50,7 +50,7 @@
           <argument>
             <kind>1</kind>
             <string>
-if(!instance_exists(self.mineClient))
+if(global.barClosed == false &amp;&amp; !instance_exists(self.mineClient))
 {
     cooldownTime--;
     if(self.cooldownTime == 0 ){
