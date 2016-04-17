@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = room_speed *60;
+            <string>global.gameTime = 80;
+alarm[0] = room_speed *global.gameTime;
 global.barClosed =false;
 </string>
           </argument>
@@ -117,7 +118,6 @@ draw_text(0, 70, "Naranjas "+ string(global.currentNaranjas) );
 draw_text(0, 80, "Sermiesas "+ string(global.currentSermiesa) );
 draw_text(0, 90, "Limones "+ string(global.currentLimones) );
 */
-
 displayTime =floor(alarm[0]/room_speed);
 if(displayTime &lt; 0)
 {
@@ -125,7 +125,21 @@ displayTime=0;
 }
 
 draw_text(50, 50, string(global.money));
-draw_text(50,70,string(displayTime));
+var initialTime = 20; //in Hours
+var diff = global.gameTime - displayTime; // Esto son los minutos
+
+var minsToSum = diff % 60;
+var hoursToSum = floor((diff / 60));
+show_debug_message(hoursToSum);
+
+if (minsToSum &gt; 9)
+{
+    draw_text(50,70,(string(initialTime+hoursToSum)+":"+string(minsToSum)));
+}
+else
+{
+    draw_text(50,70,(string(initialTime+hoursToSum)+":0"+string(minsToSum)));
+}
 
 </string>
           </argument>
