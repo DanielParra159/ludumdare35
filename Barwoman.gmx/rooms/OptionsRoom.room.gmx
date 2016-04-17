@@ -65,7 +65,10 @@
     <instance objName="obj_Taburete" x="672" y="352" name="inst_01CA8D5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Taburete" x="576" y="288" name="inst_0E7F68DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Escenario" x="672" y="256" name="inst_2F322F7A" locked="0" code="" scaleX="1.75999999046326" scaleY="2.88000011444092" colour="4294967295" rotation="0"/>
-    <instance objName="FallerEst" x="864" y="352" name="inst_7BE5EFD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="FallerEst" x="868" y="343" name="inst_7BE5EFD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MenuOptions" x="512" y="128" name="inst_C8EDF222" locked="0" code="" scaleX="1.72611463069916" scaleY="1.38888883590698" colour="4294967295" rotation="0"/>
+    <instance objName="obj_SoundOn" x="592" y="142" name="inst_69FD4933" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MusicOn" x="592" y="187" name="inst_2BA57142" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

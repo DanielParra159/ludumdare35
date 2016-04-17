@@ -286,7 +286,6 @@
       <object>objects\obj_MusicOn</object>
       <object>objects\obj_SoundOff</object>
       <object>objects\obj_MusicOff</object>
-
     </objects>
   </objects>
   <rooms name="rooms">
