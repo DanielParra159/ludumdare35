@@ -19,6 +19,9 @@
     </sounds>
     <sound>sound\pourDrink</sound>
     <sound>sound\shakeDrink</sound>
+    <sounds name="Music">
+      <sound>sound\Tasca_Song</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="Ingredients">
