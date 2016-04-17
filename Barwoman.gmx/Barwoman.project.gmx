@@ -130,6 +130,11 @@
       <sprite>sprites\Options</sprite>
       <sprite>sprites\OptionsFoco</sprite>
       <sprite>sprites\StartFoco</sprite>
+      <sprite>sprites\Daniel</sprite>
+      <sprite>sprites\Martin</sprite>
+      <sprite>sprites\Ricardo</sprite>
+      <sprite>sprites\Tejera</sprite>
+      <sprite>sprites\black</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -238,10 +243,16 @@
       <object>objects\obj_Credits</object>
       <object>objects\obj_Exit</object>
       <object>objects\obj_MenuScreen</object>
+      <object>objects\obj_Daniel</object>
+      <object>objects\obj_Ricardo</object>
+      <object>objects\obj_Martin</object>
+      <object>objects\obj_Tejera</object>
+      <object>objects\obj_black</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
+    <room>rooms\rm_Credits</room>
     <room>rooms\RichardRoom</room>
   </rooms>
   <help>
