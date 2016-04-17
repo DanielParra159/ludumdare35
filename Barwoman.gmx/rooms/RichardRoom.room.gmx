@@ -86,6 +86,7 @@ global.sadClient=0;</code>
     <instance objName="obj_Limon" x="260" y="144" name="inst_1E31FE8C" locked="0" code="" scaleX="0.611111104488373" scaleY="0.580645143985748" colour="4294967295" rotation="0"/>
     <instance objName="obj_Billetes" x="28" y="60" name="inst_49B03ACF" locked="0" code="" scaleX="0.100000001490116" scaleY="0.100000001490116" colour="4294967295" rotation="0"/>
     <instance objName="obj_background" x="40" y="60" name="inst_31F057D8" locked="0" code="" scaleX="3" scaleY="2" colour="4294967295" rotation="0"/>
+    <instance objName="obj_menuButton" x="880" y="464" name="inst_D2C5F2E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

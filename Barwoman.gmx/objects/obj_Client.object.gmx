@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>8</kind>
-            <path>GoToBar</path>
+            <path>-100</path>
           </argument>
           <argument>
             <kind>0</kind>
@@ -258,7 +258,7 @@ self.pedidoId = instance_create(self.x +XOffset+20, self.y+yOffset-17, self.sele
 
 //Start countdown
 
-alarm[0] = random_range(1000, 2000);
+alarm[0] = room_speed * irandom_range(15, 30);
 </string>
           </argument>
         </arguments>
