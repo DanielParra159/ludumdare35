@@ -28,6 +28,7 @@
             <string>global.gameTime = 80;
 alarm[0] = room_speed *global.gameTime;
 global.barClosed =false;
+instance_create(870, 20, obj_reloj);
 </string>
           </argument>
         </arguments>
@@ -124,7 +125,7 @@ if(displayTime &lt; 0)
 displayTime=0;
 }
 
-draw_text(50, 50, string(global.money));
+draw_text(60, 50, string(global.money));
 var initialTime = 20; //in Hours
 var diff = global.gameTime - displayTime; // Esto son los minutos
 
@@ -134,11 +135,11 @@ show_debug_message(hoursToSum);
 
 if (minsToSum &gt; 9)
 {
-    draw_text(50,70,(string(initialTime+hoursToSum)+":"+string(minsToSum)));
+    draw_text(840,20,(string(initialTime+hoursToSum)+":"+string(minsToSum)));
 }
 else
 {
-    draw_text(50,70,(string(initialTime+hoursToSum)+":0"+string(minsToSum)));
+    draw_text(840,20,(string(initialTime+hoursToSum)+":0"+string(minsToSum)));
 }
 
 </string>
