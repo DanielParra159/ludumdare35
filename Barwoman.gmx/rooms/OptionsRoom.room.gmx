@@ -64,7 +64,8 @@
     <instance objName="obj_Taburete" x="544" y="448" name="inst_E4A78607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Taburete" x="672" y="352" name="inst_01CA8D5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Taburete" x="576" y="288" name="inst_0E7F68DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Escenario" x="704" y="288" name="inst_2F322F7A" locked="0" code="" scaleX="1.44000005722046" scaleY="1.60000002384186" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Escenario" x="672" y="256" name="inst_2F322F7A" locked="0" code="" scaleX="1.75999999046326" scaleY="2.88000011444092" colour="4294967295" rotation="0"/>
+    <instance objName="FallerEst" x="864" y="352" name="inst_7BE5EFD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
