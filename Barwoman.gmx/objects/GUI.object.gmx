@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = room_speed *10;
+            <string>alarm[0] = room_speed *3;
 global.barClosed =false;
 </string>
           </argument>
@@ -118,8 +118,14 @@ draw_text(0, 80, "Sermiesas "+ string(global.currentSermiesa) );
 draw_text(0, 90, "Limones "+ string(global.currentLimones) );
 */
 
+displayTime =floor(alarm[0]/room_speed);
+if(displayTime &lt; 0)
+{
+displayTime=0;
+}
+
 draw_text(50, 50, string(global.money));
-draw_text(50,70,string(floor(alarm[0]/room_speed)));
+draw_text(50,70,string(displayTime));
 
 </string>
           </argument>
