@@ -291,7 +291,7 @@
   <rooms name="rooms">
     <room>rooms\MainMenu</room>
     <room>rooms\rm_Credits</room>
-    <room>rooms\RichardRoom</room>
+    <room>rooms\ScoreRoom</room>
     <room>rooms\ScoreRoom</room>
     <room>rooms\OptionsRoom</room>
   </rooms>
