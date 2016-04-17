@@ -62,7 +62,6 @@ global.money = 0;</code>
     <instance objName="obj_Barwoman" x="576" y="220" name="inst_3B7A2AA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_barra" x="304" y="256" name="inst_D906CB91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Estanteria" x="316" y="32" name="inst_38312FE9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="740" y="124" name="inst_743E24BD" locked="0" code="" scaleX="2.09999990463257" scaleY="2.26999998092651" colour="4294967295" rotation="0"/>
     <instance objName="drink1" x="324" y="4" name="inst_32840FD6" locked="0" code="" scaleX="0.400000005960464" scaleY="0.400000005960464" colour="4294967295" rotation="0"/>
     <instance objName="drink2" x="176" y="16" name="inst_600524B0" locked="0" code="" scaleX="0.349999994039536" scaleY="0.349999994039536" colour="4294967295" rotation="0"/>
     <instance objName="drink3" x="412" y="20" name="inst_2D866DC9" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
