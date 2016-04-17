@@ -26,7 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>draw_set_color(c_white);
-draw_text(self.x, self.y, string(global.money));
+
+draw_text_transformed(self.x, self.y,string(global.money),1.5,1.5,0);
+//draw_text(self.x, self.y, string(global.money));
 draw_set_color(c_black);
 
 </string>
