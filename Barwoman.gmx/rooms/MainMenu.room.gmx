@@ -76,8 +76,13 @@
     <instance objName="RichyEst" x="672" y="416" name="inst_E5347ADE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object57" x="384" y="160" name="inst_EFD97261" locked="0" code="" scaleX="1.20000004768372" scaleY="1.18090450763702" colour="4294967295" rotation="0"/>
     <instance objName="ChinorriDanceEst" x="384" y="416" name="inst_552F2443" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="drink1" x="928" y="32" name="inst_65FCC45A" locked="0" code="" scaleX="0.363636374473572" scaleY="0.304347813129425" colour="4294967295" rotation="0"/>
-    <instance objName="drink2" x="928" y="128" name="inst_D64ABF4E" locked="0" code="" scaleX="0.359550565481186" scaleY="0.18840579688549" colour="4294967295" rotation="0"/>
+    <instance objName="drink1" x="928" y="12" name="inst_65FCC45A" locked="0" code="" scaleX="0.363636374473572" scaleY="0.360000014305115" colour="4294967295" rotation="0"/>
+    <instance objName="drink2" x="912" y="97" name="inst_D64ABF4E" locked="0" code="" scaleX="0.300000011920929" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MenuScreen" x="628" y="8" name="inst_4E4BBE99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Start" x="703" y="94" name="inst_F596DCC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Options" x="703" y="128" name="inst_B356C50B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Credits" x="703" y="158" name="inst_3C32D3EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Exit" x="703" y="192" name="inst_D9A1EAB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

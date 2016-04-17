@@ -120,7 +120,17 @@
     <sprite>sprites\spr_thx</sprite>
     <sprite>sprites\spr_Billetes</sprite>
     <sprite>sprites\spt_background</sprite>
-    <sprite>sprites\spr_displayScore</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\Credits</sprite>
+      <sprite>sprites\CreditsFoco</sprite>
+      <sprite>sprites\Exit</sprite>
+      <sprite>sprites\ExitFoco</sprite>
+      <sprite>sprites\Start</sprite>
+      <sprite>sprites\MenuScreen</sprite>
+      <sprite>sprites\Options</sprite>
+      <sprite>sprites\OptionsFoco</sprite>
+      <sprite>sprites\StartFoco</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -217,26 +227,22 @@
       <object>objects\ChinorriDanceEst</object>
       <object>objects\drink1</object>
       <object>objects\drink2</object>
-      <object>objects\MenuPreviewEst</object>
-      <object>objects\drink3</object>
-      <object>objects\drink4</object>
-      <object>objects\drink5</object>
-      <object>objects\drink6</object>
-      <object>objects\ingr1</object>
-      <object>objects\ingr2</object>
-      <object>objects\ingr3</object>
-      <object>objects\drink7</object>
     </objects>
     <object>objects\obj_funck</object>
     <object>objects\obj_thx</object>
     <object>objects\obj_Billetes</object>
     <object>objects\obj_background</object>
-    <object>objects\obj_DisplayScore</object>
+    <objects name="Menu">
+      <object>objects\obj_Start</object>
+      <object>objects\obj_Options</object>
+      <object>objects\obj_Credits</object>
+      <object>objects\obj_Exit</object>
+      <object>objects\obj_MenuScreen</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\RichardRoom</room>
-    <room>rooms\ScoreRoom</room>
     <room>rooms\MainMenu</room>
+    <room>rooms\RichardRoom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
