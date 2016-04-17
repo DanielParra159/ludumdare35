@@ -55,6 +55,8 @@
       <sprite>sprites\spr_RestartFoco</sprite>
       <sprite>sprites\spr_MenuButton</sprite>
       <sprite>sprites\spr_MenuButtonFoco</sprite>
+      <sprite>sprites\spr_back</sprite>
+      <sprite>sprites\spr_backFocus</sprite>
     </sprites>
     <sprites name="Characters">
       <sprite>sprites\up_atlas_DarkMartin</sprite>
@@ -149,6 +151,7 @@
       <sprite>sprites\MenuOptions</sprite>
       <sprite>sprites\SoundOff</sprite>
       <sprite>sprites\SoundOn</sprite>
+      <sprite>sprites\spr_Reloj</sprite>
     </sprites>
     <sprite>sprites\spr_displayScore</sprite>
   </sprites>
@@ -286,6 +289,8 @@
       <object>objects\obj_MusicOn</object>
       <object>objects\obj_SoundOff</object>
       <object>objects\obj_MusicOff</object>
+      <object>objects\obj_backButton</object>
+      <object>objects\obj_reloj</object>
     </objects>
   </objects>
   <rooms name="rooms">
