@@ -7,7 +7,7 @@
   <hsnap>4</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <colour>16512</colour>
   <showcolour>-1</showcolour>
   <code>/*global.deliverMixer = false;
