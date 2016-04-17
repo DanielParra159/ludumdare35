@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[0] = room_speed *30;
+            <string>alarm[0] = room_speed *60;
 global.barClosed =false;
 </string>
           </argument>
